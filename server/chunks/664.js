@@ -56,7 +56,7 @@ Object.defineProperty(exports, "__esModule", ({
 exports.addBasePath = addBasePath;
 var _addPathPrefix = __webpack_require__(1751);
 var _normalizeTrailingSlash = __webpack_require__(2392);
-const basePath =  false || "";
+const basePath = "/Yoon79/letters" || 0;
 function addBasePath(path, required) {
     if (false) {}
     return (0, _normalizeTrailingSlash).normalizePathTrailingSlash((0, _addPathPrefix).addPathPrefix(path, basePath));
@@ -131,7 +131,7 @@ Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
 exports.getDomainLocale = getDomainLocale;
-const basePath = (/* unused pure expression or super */ null && ( false || ""));
+const basePath = (/* unused pure expression or super */ null && ("/Yoon79/letters" || 0));
 function getDomainLocale(path, locale, locales, domainLocales) {
     if (false) {} else {
         return false;
@@ -158,7 +158,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.hasBasePath = hasBasePath;
 var _pathHasPrefix = __webpack_require__(4567);
-const basePath =  false || "";
+const basePath = "/Yoon79/letters" || 0;
 function hasBasePath(path) {
     return (0, _pathHasPrefix).pathHasPrefix(path, basePath);
 }
@@ -550,7 +550,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.removeBasePath = removeBasePath;
 var _hasBasePath = __webpack_require__(4119);
-const basePath =  false || "";
+const basePath = "/Yoon79/letters" || 0;
 function removeBasePath(path) {
     if (false) {}
     path = path.slice(basePath.length);
@@ -2473,7 +2473,7 @@ class Router {
         // if auto prerendered and dynamic route wait to update asPath
         // until after mount to prevent hydration mismatch
         const autoExportDynamic = (0, _isDynamic).isDynamicRoute(pathname1) && self.__NEXT_DATA__.autoExport;
-        this.basePath =  false || "";
+        this.basePath = "/Yoon79/letters" || 0;
         this.sub = subscription;
         this.clc = null;
         this._wrapApp = wrapApp;
