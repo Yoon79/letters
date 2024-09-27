@@ -39,7 +39,7 @@ export default function Nevigator() {
                     <div className="pt-3 -ml-6">
                       <Link href="/">
                         <a>
-                          <Image
+                          <img
                             src="/logo.png"
                             alt="Picture of the author"
                             width={110}

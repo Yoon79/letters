@@ -52,7 +52,7 @@ const Contact: NextPage = () => {
 
           <div className="flex">
             <div className="mr-1 text-gray-700 font-mono font-medium">instagram </div>
-            <Image
+            <img
               src="/instagram.png"
               alt="Picture of the author"
               width={23}
