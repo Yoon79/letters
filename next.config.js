@@ -3,7 +3,13 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-module.exports = nextConfig;
+// module.exports = nextConfig;
+// next.config.js
+module.exports = {
+  basePath: '/Yoon79/letters',
+  assetPrefix: '/Yoon79/letters',
+};
+
 
 // module.exports = {
 //   async rewrites() {
