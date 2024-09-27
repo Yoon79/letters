@@ -1,23 +1,14 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-// };
-//
-// // module.exports = nextConfig;
-// // next.config.js
-// module.exports = {
-//   basePath: '/Yoon79/letters',
-//   assetPrefix: '/Yoon79/letters',
-// };
-
-// next.config.js
-const isProd = process.env.NODE_ENV === 'production';
-
-module.exports = {
-  basePath: isProd ? '/letters' : '',
-  assetPrefix: isProd ? '/letters' : '',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
 };
 
+// module.exports = nextConfig;
+// next.config.js
+module.exports = {
+  basePath: '/letters',
+  assetPrefix: '/letters',
+};
 
 
 // module.exports = {
