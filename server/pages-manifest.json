@@ -4,12 +4,12 @@
   "/api/hello": "pages/api/hello.js",
   "/components/detail": "pages/components/detail.html",
   "/components/footer": "pages/components/footer.html",
-  "/components/main": "pages/components/main.html",
-  "/components/navigator": "pages/components/navigator.html",
   "/contact": "pages/contact.html",
   "/": "pages/index.html",
-  "/_error": "pages/_error.js",
+  "/components/navigator": "pages/components/navigator.html",
   "/pictures/[id]": "pages/pictures/[id].html",
+  "/components/main": "pages/components/main.html",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
