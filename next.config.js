@@ -6,7 +6,7 @@
 // module.exports = nextConfig;
 
 module.exports = {
-  distDir: '.next', // Ensure you're using the default or correct build directory
+  distDir: 'build', // Ensure you're using the default or correct build directory
 };
 
 
