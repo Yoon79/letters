@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "pages404": true,
+  "basePath": "",
+  "pages": {
+    "/": {
+      "page": "/",
+      "regex": "^/$",
+      "routeKeys": {}
+    },
+    "/about": {
+      "page": "/about",
+      "regex": "^/about$",
+      "routeKeys": {}
+    },
+    "/_app": {
+      "page": "/_app",
+      "regex": "^/_app$",
+      "routeKeys": {}
+    },
+    "/_error": {
+      "page": "/_error",
+      "regex": "^/_error$",
+      "routeKeys": {}
+    }
+  },
+  "dynamicRoutes": {},
+  "i18n": null,
+  "rewrites": [],
+  "headers": [],
+  "redirects": []
+}
