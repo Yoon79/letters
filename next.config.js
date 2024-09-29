@@ -1,9 +1,14 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   reactStrictMode: true,
+// };
+//
+// module.exports = nextConfig;
+
+module.exports = {
+  distDir: '.next', // Ensure you're using the default or correct build directory
 };
 
-module.exports = nextConfig;
 
 // module.exports = {
 //   async rewrites() {
