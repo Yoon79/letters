@@ -15,14 +15,14 @@ export default function Footer() {
           <ul className="justify-center flex flex-wrap items-center mt-2 mb-2 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
             <li>
               <Link href="/aboutus">
-                <a className="font-mono mr-4 hover:underline cursor-pointer md:mr-6 ">
+                <p className="font-mono mr-4 hover:underline cursor-pointer md:mr-6 ">
                 about us
-                </a>
+                </p>
               </Link>
             </li>
             <li>
               <Link href="/contact">
-                <a className="font-mono hover:underline cursor-pointer">contact</a>
+                <p className="font-mono hover:underline cursor-pointer">contact</p>
               </Link>
             </li>
           </ul>

@@ -38,14 +38,14 @@ export default function Nevigator() {
                   <div className="flex-shrink-0 flex items-center">
                     <div className="pt-3 -ml-6">
                       <Link href="/">
-                        <a>
+
                           <img
                             src="/logo.png"
                             alt="Picture of the author"
                             width={110}
                             height={60}
                           />
-                        </a>
+
                       </Link>
                     </div>
                   </div>
@@ -53,7 +53,7 @@ export default function Nevigator() {
                     <div className="flex-1 mt-2 space-x-4">
                       {navigation.map((item) => (
                         <Link href={item.href} key={item.name}>
-                          <a
+                          <p
                             className={classNames(
                               item.current
                                 ? "bg-gray-900 text-white"
@@ -63,7 +63,7 @@ export default function Nevigator() {
                             aria-current={item.current ? "page" : undefined}
                           >
                             {item.name}
-                          </a>
+                          </p>
                         </Link>
                       ))}
                     </div>
