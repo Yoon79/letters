@@ -6,9 +6,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navigation = [
-  { name: "new", href: "/", current: false },
+  // { name: "new", href: "/", current: false },
   { name: "about us", href: "/aboutus", current: false },
-  // { name: "contact", href: "/contact", current: false },
+  { name: "contact", href: "/contact", current: false },
 ];
 
 function classNames(...classes: any) {
@@ -23,29 +23,27 @@ export default function Nevigator() {
           <>
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
               <div className="relative flex items-center justify-between h-16">
-                <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                  {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ">
-                    <span className="sr-only">Open main menu</span>
-                    {open ? (
-                      <XIcon className="block h-7 w-7" aria-hidden="true" />
-                    ) : (
-                      <MenuIcon className="block h-7 w-7" aria-hidden="true" />
-                    )}
-                  </Disclosure.Button>
-                </div>
+                {/*<div className="absolute inset-y-0 left-0 flex items-center sm:hidden">*/}
+                {/*  /!* Mobile menu button*!/*/}
+                {/*  <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ">*/}
+                {/*    <span className="sr-only">Open main menu</span>*/}
+                {/*    {open ? (*/}
+                {/*      <XIcon className="block h-7 w-7" aria-hidden="true" />*/}
+                {/*    ) : (*/}
+                {/*      <MenuIcon className="block h-7 w-7" aria-hidden="true" />*/}
+                {/*    )}*/}
+                {/*  </Disclosure.Button>*/}
+                {/*</div>*/}
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center">
                     <div className="pt-3 -ml-6">
                       <Link href="/">
-
-                          <img
+                          <Image
                             src="/logo.png"
                             alt="Picture of the author"
                             width={110}
                             height={60}
                           />
-
                       </Link>
                     </div>
                   </div>
