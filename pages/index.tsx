@@ -20,7 +20,7 @@ import Footer from "./components/footer";
 const Home: NextPage = () => {
   return (
     <div>
-      <Nevigator />
+      {/*<Nevigator />*/}
       <Main />
       <Detail />
       <Footer />
