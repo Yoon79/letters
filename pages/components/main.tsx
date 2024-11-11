@@ -34,6 +34,10 @@ export default function Main() {
   const div2Ref = useRef(null);
   const div3Ref = useRef(null);
   const div4Ref = useRef(null);
+  const div5Ref = useRef(null);
+  const div6Ref = useRef(null);
+  const div7Ref = useRef(null);
+  const div8Ref = useRef(null);
 
   // Function to scroll to a specific div
   const scrollToDiv = (divRef: any) => {
@@ -58,6 +62,10 @@ export default function Main() {
       const div2 = div2Ref.current?.getBoundingClientRect();
       const div3 = div3Ref.current?.getBoundingClientRect();
       const div4 = div4Ref.current?.getBoundingClientRect();
+      const div5 = div5Ref.current?.getBoundingClientRect();
+      const div6 = div6Ref.current?.getBoundingClientRect();
+      const div7 = div7Ref.current?.getBoundingClientRect();
+      const div8 = div8Ref.current?.getBoundingClientRect();
 
       const offset = 200; // 원하는 오프셋 값으로 조정
 
@@ -69,6 +77,14 @@ export default function Main() {
         setActiveSection(3);
       } else if (div4 && div4.top <= offset && div4.bottom > offset) {
         setActiveSection(4);
+      } else if (div5 && div5.top <= offset && div5.bottom > offset) {
+        setActiveSection(5);
+      } else if (div6 && div6.top <= offset && div6.bottom > offset) {
+        setActiveSection(6);
+      } else if (div7 && div7.top <= offset && div7.bottom > offset) {
+        setActiveSection(7);
+      } else if (div8 && div8.top <= offset && div8.bottom > offset) {
+        setActiveSection(8);
       }
     };
 
@@ -98,6 +114,22 @@ export default function Main() {
               onClick={() => scrollToDiv(div4Ref)}
               className={`p-1.5 font-mono rounded-full border border-[#e98143] hover:bg-[#e98143]
                 ${activeSection === 4 ? "bg-[#e98143]" : ""}`}></button>
+            <button
+              onClick={() => scrollToDiv(div5Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#e98143] hover:bg-[#e98143]
+                ${activeSection === 5 ? "bg-[#e98143]" : ""}`}></button>
+            <button
+              onClick={() => scrollToDiv(div6Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#e98143] hover:bg-[#e98143]
+                ${activeSection === 6 ? "bg-[#e98143]" : ""}`}></button>
+            <button
+              onClick={() => scrollToDiv(div7Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#e98143] hover:bg-[#e98143]
+                ${activeSection === 7 ? "bg-[#e98143]" : ""}`}></button>
+            <button
+              onClick={() => scrollToDiv(div8Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#e98143] hover:bg-[#e98143]
+                ${activeSection === 8 ? "bg-[#e98143]" : ""}`}></button>
           </div>
         </div>
         <div className="space-y-4 pt-5">
@@ -245,45 +277,85 @@ export default function Main() {
           {/* Third Message */}
           <div
             ref={div3Ref}
-            className="select-none mt-4 bg-white px-4 py-2 w-auto">
-            <p>
-              윤이
-              <br />
-              <br />
-              세 번째 메시지 내용
-              <br />
-              <br />
-              내용내용내용~~~~
-              <br />
-              내용내용내용~~~~
-              <br />
-              내용내용내용~~~~
-              <br />
-              내용내용내용~~~~
-              <br />
-              내용내용내용~~~~
-              <br />
-              내용내용내용~~~~
-              <br />
-              내용내용내용~~~~
-              <br />
-              내용내용내용~~~~
-              <br />
-            </p>
+            className="select-none mt-4 bg-white p-10 w-auto"
+            style={{
+              backgroundImage: `
+                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                  `,
+              backgroundSize: "30px 30px", // 격자 크기 조절
+            }}>
+            <p></p>
           </div>
 
           {/* Forth Message */}
           <div
             ref={div4Ref}
-            className="select-none mt-4 bg-white px-4 py-2 w-auto">
-            <p>
-              최인영~
-              <br />
-              <br />
-              네 번째 메시지 내용
-              <br />
-              <br />
-            </p>
+            className="select-none mt-4 bg-white p-10 w-auto"
+            style={{
+              backgroundImage: `
+                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                  `,
+              backgroundSize: "30px 30px", // 격자 크기 조절
+            }}>
+            <p></p>
+          </div>
+
+          {/* Fifth Message */}
+          <div
+            ref={div5Ref}
+            className="select-none mt-4 bg-white p-10 w-auto"
+            style={{
+              backgroundImage: `
+                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                  `,
+              backgroundSize: "30px 30px", // 격자 크기 조절
+            }}>
+            <p></p>
+          </div>
+
+          {/* sixth Message */}
+          <div
+            ref={div6Ref}
+            className="select-none mt-4 bg-white p-10 w-auto"
+            style={{
+              backgroundImage: `
+                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                  `,
+              backgroundSize: "30px 30px", // 격자 크기 조절
+            }}>
+            <p></p>
+          </div>
+
+          {/* Seventh Message */}
+          <div
+            ref={div7Ref}
+            className="select-none mt-4 bg-white p-10 w-auto"
+            style={{
+              backgroundImage: `
+                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                  `,
+              backgroundSize: "30px 30px", // 격자 크기 조절
+            }}>
+            <p></p>
+          </div>
+
+          {/* Eightth Message */}
+          <div
+            ref={div8Ref}
+            className="select-none mt-4 bg-white p-10 w-auto"
+            style={{
+              backgroundImage: `
+                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                  `,
+              backgroundSize: "30px 30px", // 격자 크기 조절
+            }}>
+            <p></p>
           </div>
         </div>
       </div>
