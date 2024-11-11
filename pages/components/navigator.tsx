@@ -36,13 +36,13 @@ export default function Nevigator() {
                 {/*</div>*/}
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center">
-                    <div className="pt-6">
+                    <div className="pt-8">
                       <Link href="/">
                         <Image
                           src="/orange.png"
                           alt="Picture of the author"
-                          width={80}
-                          height={80}
+                          width={100}
+                          height={100}
                         />
                       </Link>
                     </div>
