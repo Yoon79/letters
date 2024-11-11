@@ -58,17 +58,23 @@ export default function Main() {
   // 스크롤 위치를 감지하여 현재 섹션을 업데이트
   useEffect(() => {
     const handleScroll = () => {
-      const div1 = div1Ref.current?.getBoundingClientRect();
-      const div2 = div2Ref.current?.getBoundingClientRect();
-      const div3 = div3Ref.current?.getBoundingClientRect();
-      const div4 = div4Ref.current?.getBoundingClientRect();
-      const div5 = div5Ref.current?.getBoundingClientRect();
-      const div6 = div6Ref.current?.getBoundingClientRect();
-      const div7 = div7Ref.current?.getBoundingClientRect();
-      const div8 = div8Ref.current?.getBoundingClientRect();
+      // 모든 ref들의 현재 위치를 안전하게 가져오기
+      const getRectSafely = (ref: React.RefObject<HTMLElement>) => {
+        return ref.current?.getBoundingClientRect() ?? null;
+      };
 
-      const offset = 200; // 원하는 오프셋 값으로 조정
+      const div1 = getRectSafely(div1Ref);
+      const div2 = getRectSafely(div2Ref);
+      const div3 = getRectSafely(div3Ref);
+      const div4 = getRectSafely(div4Ref);
+      const div5 = getRectSafely(div5Ref);
+      const div6 = getRectSafely(div6Ref);
+      const div7 = getRectSafely(div7Ref);
+      const div8 = getRectSafely(div8Ref);
 
+      const offset = 200; // 원하는 오프셋 값
+
+      // null 체크를 포함한 조건문
       if (div1 && div1.top <= offset && div1.bottom > offset) {
         setActiveSection(1);
       } else if (div2 && div2.top <= offset && div2.bottom > offset) {
@@ -156,22 +162,23 @@ export default function Main() {
               첫 앨범회의가 7월 쯤이었나? <br />
               <br />
               앨범이 미뤄진게 조금 아쉬웠는데 덕분에 <br />
-              '새벽이' 를 넣게 됐으니까 아무튼 좋아! <br />
+              &apos;새벽이 &apos; 를 넣게 됐으니까 아무튼 좋아! <br />
               <br />
               생각해보면 십이년동안 앨범을 만들면서 트랙에 맞춰 필요한 곡들을
               쓰기위해 애썼던 것 같아. <br />
-              '3번 트랙에 있으면 좋을법한 귀여운 노래' 랄지 <br />
-              '마지막 트랙을 장식할 만한 분위기의 노래' 같은 거. <br />
+              &apos;3번 트랙에 있으면 좋을법한 귀여운 노래 &apos; 랄지 <br />
+              &apos;마지막 트랙을 장식할 만한 분위기의 노래 &apos; 같은 거.{" "}
+              <br />
               그렇게 잘 맞물리는 일들이 좋기도 했고! <br />
               근데 이번 앨범은 좀... <br />
-              '프롬 파리' 만들던 때가 생각 나! <br />
+              &apos;프롬 파리 &apos; 만들던 때가 생각 나! <br />
               한껏 자유롭고 초롱초롱하던 23살 그때의 기분이야. <br />
               <br />
               그때 우리, 고민은 별로 없고 아이디어는 넘쳤었는데 그치?
               미화된건가.. 호호 <br />
               <br />
               뭐였지(의식의 흐름대로 쓰는 중이야) <br />
-              '괜찮아질건가봐' 2절 가사 쓴답시고 <br />
+              &apos;괜찮아질건가봐 &apos; 2절 가사 쓴답시고 <br />
               갔던 카페 황치즈디저트 진짜 맛있었는데.. <br />
               또 먹고싶당 <br />
               우리 또 회의 할 거 없나? 히히 <br />
