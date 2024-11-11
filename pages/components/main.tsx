@@ -85,7 +85,7 @@ export default function Main() {
             ref={div1Ref}
             className="select-none pt-4 px-4 py-2 rounded-lg w-auto bg-cover bg-center"
             style={{
-              backgroundImage: "url('/back1.jpg')",
+              backgroundImage: "url('images/back1.jpg')",
               color: "white", // 텍스트가 잘 보이도록 색상 변경
               textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
             }}>
