@@ -119,7 +119,7 @@ export default function Main() {
               //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
             }}>
             <p>
-              윤이 <br />
+              <strong>윤이</strong> <br />
               <br />
               첫 앨범회의가 7월 쯤이었나? <br />
               <br />
@@ -159,7 +159,7 @@ export default function Main() {
               backgroundSize: "30px 30px", // 격자 크기 조절
             }}>
             <p>
-              안녕 최인영
+              <strong>안녕 최인영</strong>
               <br />
               <br />
               오늘 새벽의 꿈이 기억나지 않아
