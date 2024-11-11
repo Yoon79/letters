@@ -18,7 +18,7 @@ function classNames(...classes: any) {
 export default function Nevigator() {
   return (
     <div className="mt-4 pb-2 ml-4 font-mono font-bold fixed w-full bg-inherit">
-      <Disclosure as="nav" >
+      <Disclosure as="nav">
         {({ open }) => (
           <>
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
@@ -36,20 +36,20 @@ export default function Nevigator() {
                 {/*</div>*/}
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center">
-                    <div className="pt-3 -ml-6">
+                    <div className="pt-6">
                       <Link href="/">
-                          <Image
-                            src="/logo.png"
-                            alt="Picture of the author"
-                            width={110}
-                            height={60}
-                          />
+                        <Image
+                          src="/orange.png"
+                          alt="Picture of the author"
+                          width={80}
+                          height={80}
+                        />
                       </Link>
                     </div>
                   </div>
                   <div className="hidden sm:block sm:ml-6 pt-[26px]">
                     <div className="flex-1 mt-2 space-x-4">
-                      {navigation.map((item) => (
+                      {navigation.map(item => (
                         <Link href={item.href} key={item.name}>
                           <p
                             className={classNames(
@@ -58,8 +58,7 @@ export default function Nevigator() {
                                 : "text-gray-900 hover:text-gray-400",
                               "px-3 py-2 rounded-md text-sm font-medium"
                             )}
-                            aria-current={item.current ? "page" : undefined}
-                          >
+                            aria-current={item.current ? "page" : undefined}>
                             {item.name}
                           </p>
                         </Link>
@@ -69,11 +68,10 @@ export default function Nevigator() {
                 </div>
               </div>
             </div>
-            
 
             <Disclosure.Panel className="sm:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1">
-                {navigation.map((item) => (
+                {navigation.map(item => (
                   <Disclosure.Button
                     key={item.name}
                     as="a"
@@ -84,8 +82,7 @@ export default function Nevigator() {
                         : "text-gray-900 hover:text-gray-400",
                       "block px-3 py-2 rounded-md text-base font-medium"
                     )}
-                    aria-current={item.current ? "page" : undefined}
-                  >
+                    aria-current={item.current ? "page" : undefined}>
                     {item.name}
                   </Disclosure.Button>
                 ))}

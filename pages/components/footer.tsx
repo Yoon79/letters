@@ -7,8 +7,10 @@ export default function Footer() {
         <div className="text-center">
           <span className="font-mono text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
-            <a className="hover:underline font-mono cursor-pointer">스웨덴세탁소 교환일기장</a>.
-            All Rights Reserved.
+            <a className="hover:underline font-mono cursor-pointer">
+              스웨덴세탁소 교환일기장
+            </a>
+            . All Rights Reserved.
           </span>
         </div>
         <div>
@@ -16,13 +18,15 @@ export default function Footer() {
             <li>
               <Link href="/aboutus">
                 <p className="font-mono mr-4 hover:underline cursor-pointer md:mr-6 ">
-                about us
+                  about us
                 </p>
               </Link>
             </li>
             <li>
               <Link href="/contact">
-                <p className="font-mono hover:underline cursor-pointer">contact</p>
+                <p className="font-mono hover:underline cursor-pointer">
+                  contact
+                </p>
               </Link>
             </li>
           </ul>
