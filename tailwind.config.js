@@ -1,13 +1,12 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./pages/**/*.{js,jsx,ts,tsx}",
-    "./components/**/*.{js,jsx,ts,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      // backgroundImage: {
-      //   main: "url('/main.jpeg')",
-      // },
       fontFamily: {
         AlegreyaSans: ["Alegreya Sans", "sans-serif"],
         MalgunGothic: ["Malgun Gothic"],

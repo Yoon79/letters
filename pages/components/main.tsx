@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 export default function Main() {
   const [showTopButton, setShowTopButton] = useState(false);
   const [activeSection, setActiveSection] = useState(1);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   // Function to scroll to the top of the page
   const scrollToTop = () => {
@@ -98,11 +99,30 @@ export default function Main() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const threshold = 150; // 스크롤 위치 임계값
+
+      if (scrollPosition > threshold) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="max-w-2xl mx-auto py-10 px-4 grid items-center">
-      <div className="pt-28">
+      <div className="pt-10">
         {/* Buttons to scroll to specific divs */}
-        <div className="fixed top-[145px] left-0 right-0 z-50">
+        <div
+          className={`${
+            isScrolled ? "fixed top-10" : "absolute top-[145px]"
+          } left-0 right-0 z-50`}>
           <div className="flex justify-center space-x-2">
             <button
               onClick={() => scrollToDiv(div1Ref)}

@@ -17,7 +17,7 @@ function classNames(...classes: any) {
 
 export default function Nevigator() {
   return (
-    <div className="mt-4 pb-2 ml-4 font-mono font-bold fixed w-full bg-inherit">
+    <div className="mt-4 pb-2 ml-4 font-mono font-bold md:fixed w-full bg-inherit">
       <Disclosure as="nav">
         {({ open }) => (
           <>
