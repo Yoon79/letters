@@ -36,10 +36,16 @@ export default function Nevigator() {
                 {/*</div>*/}
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center">
-                    <div className="pt-8">
-                      <Link href="/">
+                    <div className="pt-8 -ml-10">
+                      <Link href="/" className="flex">
                         <Image
-                          src="/orange.png"
+                          src="/orange1.png"
+                          alt="Picture of the author"
+                          width={100}
+                          height={100}
+                        />
+                        <Image
+                          src="/orange2.png"
                           alt="Picture of the author"
                           width={100}
                           height={100}
@@ -48,7 +54,7 @@ export default function Nevigator() {
                     </div>
                   </div>
                   <div className="hidden sm:block sm:ml-6 pt-[26px]">
-                    <div className="flex-1 mt-2 space-x-4">
+                    {/* <div className="flex-1 mt-2 space-x-4">
                       {navigation.map(item => (
                         <Link href={item.href} key={item.name}>
                           <p
@@ -63,7 +69,7 @@ export default function Nevigator() {
                           </p>
                         </Link>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

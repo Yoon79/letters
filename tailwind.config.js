@@ -11,6 +11,7 @@ module.exports = {
         AlegreyaSans: ["Alegreya Sans", "sans-serif"],
         MalgunGothic: ["Malgun Gothic"],
         sans: ["Helvetica", "Arial"],
+        suit: ["SUIT-Regular"],
       },
     },
   },

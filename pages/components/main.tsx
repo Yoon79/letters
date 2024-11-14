@@ -176,7 +176,7 @@ export default function Main() {
               //   color: "white", // 텍스트가 잘 보이도록 색상 변경
               //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
             }}>
-            <p>
+            <p className="font-suit">
               <strong>윤이</strong> <br />
               <br />
               첫 앨범회의가 7월 쯤이었나? <br />
@@ -217,7 +217,7 @@ export default function Main() {
                   `,
               backgroundSize: "30px 30px", // 격자 크기 조절
             }}>
-            <p>
+            <p className="font-sans">
               <strong>안녕 최인영</strong>
               <br />
               <br />
