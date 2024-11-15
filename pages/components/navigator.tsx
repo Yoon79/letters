@@ -59,8 +59,8 @@ export default function Nevigator() {
                           <Image
                             src="/orange2.png"
                             alt="Picture of the author"
-                            width={100}
-                            height={100}
+                            width={110}
+                            height={110}
                           />
                         )}
                       </Link>
