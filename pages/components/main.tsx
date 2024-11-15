@@ -164,7 +164,7 @@ export default function Main() {
             ref={div1Ref}
             className="select-none pt-4 bg-white px-4 py-2 rounded-lg w-auto"> */}
           <div>
-            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold">
+            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold italic">
               from. 인영
             </div>
             <div
@@ -216,7 +216,7 @@ export default function Main() {
 
           {/* Second Message */}
           <div>
-            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold">
+            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold italic">
               from. 세윤
             </div>
             <div
