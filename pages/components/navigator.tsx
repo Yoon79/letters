@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
-import { Fragment } from "react";
+import { Fragment, useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,6 +16,16 @@ function classNames(...classes: any) {
 }
 
 export default function Nevigator() {
+  const [showFirstImage, setShowFirstImage] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setShowFirstImage(prev => !prev);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="mt-4 pb-2 ml-4 font-mono font-bold md:fixed w-full bg-inherit">
       <Disclosure as="nav">
@@ -37,19 +47,22 @@ export default function Nevigator() {
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center">
                     <div className="pt-8 -ml-10">
-                      <Link href="/" className="flex">
-                        <Image
-                          src="/orange1.png"
-                          alt="Picture of the author"
-                          width={100}
-                          height={100}
-                        />
-                        <Image
-                          src="/orange2.png"
-                          alt="Picture of the author"
-                          width={100}
-                          height={100}
-                        />
+                      <Link href="/">
+                        {showFirstImage ? (
+                          <Image
+                            src="/orange1.png"
+                            alt="Picture of the author"
+                            width={100}
+                            height={100}
+                          />
+                        ) : (
+                          <Image
+                            src="/orange2.png"
+                            alt="Picture of the author"
+                            width={100}
+                            height={100}
+                          />
+                        )}
                       </Link>
                     </div>
                   </div>
