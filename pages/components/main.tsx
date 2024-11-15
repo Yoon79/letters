@@ -121,7 +121,7 @@ export default function Main() {
         {/* Buttons to scroll to specific divs */}
         <div
           className={`${
-            isScrolled ? "fixed top-10" : "absolute top-[145px]"
+            isScrolled ? "fixed top-10" : "absolute top-[145px] md:top-10"
           } left-0 right-0 z-50`}>
           <div className="flex justify-center space-x-2">
             <button
