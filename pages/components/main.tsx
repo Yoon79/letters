@@ -304,84 +304,96 @@ export default function Main() {
           {/* Third Message */}
           <div
             ref={div3Ref}
-            className="select-none mt-4 bg-white p-10 w-auto"
-            style={{
-              backgroundImage: `
-                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                  `,
-              backgroundSize: "30px 30px", // 격자 크기 조절
-            }}>
+            className="select-none mt-4 bg-inherit p-10 w-auto"
+            style={
+              {
+                //   backgroundImage: `
+                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                //       `,
+                //   backgroundSize: "30px 30px", // 격자 크기 조절
+              }
+            }>
             <p></p>
           </div>
 
           {/* Forth Message */}
           <div
             ref={div4Ref}
-            className="select-none mt-4 bg-white p-10 w-auto"
-            style={{
-              backgroundImage: `
-                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                  `,
-              backgroundSize: "30px 30px", // 격자 크기 조절
-            }}>
+            className="select-none mt-4 bg-inherit p-10 w-auto"
+            style={
+              {
+                //   backgroundImage: `
+                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                //       `,
+                //   backgroundSize: "30px 30px", // 격자 크기 조절
+              }
+            }>
             <p></p>
           </div>
 
           {/* Fifth Message */}
           <div
             ref={div5Ref}
-            className="select-none mt-4 bg-white p-10 w-auto"
-            style={{
-              backgroundImage: `
-                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                  `,
-              backgroundSize: "30px 30px", // 격자 크기 조절
-            }}>
+            className="select-none mt-4 bg-inherit p-10 w-auto"
+            style={
+              {
+                //   backgroundImage: `
+                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                //       `,
+                //   backgroundSize: "30px 30px", // 격자 크기 조절
+              }
+            }>
             <p></p>
           </div>
 
           {/* sixth Message */}
           <div
             ref={div6Ref}
-            className="select-none mt-4 bg-white p-10 w-auto"
-            style={{
-              backgroundImage: `
-                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                  `,
-              backgroundSize: "30px 30px", // 격자 크기 조절
-            }}>
+            className="select-none mt-4 bg-inherit p-10 w-auto"
+            style={
+              {
+                //   backgroundImage: `
+                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                //       `,
+                //   backgroundSize: "30px 30px", // 격자 크기 조절
+              }
+            }>
             <p></p>
           </div>
 
           {/* Seventh Message */}
           <div
             ref={div7Ref}
-            className="select-none mt-4 bg-white p-10 w-auto"
-            style={{
-              backgroundImage: `
-                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                  `,
-              backgroundSize: "30px 30px", // 격자 크기 조절
-            }}>
+            className="select-none mt-4 bg-inherit p-10 w-auto"
+            style={
+              {
+                //   backgroundImage: `
+                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                //       `,
+                //   backgroundSize: "30px 30px", // 격자 크기 조절
+              }
+            }>
             <p></p>
           </div>
 
           {/* Eightth Message */}
           <div
             ref={div8Ref}
-            className="select-none mt-4 bg-white p-10 w-auto"
-            style={{
-              backgroundImage: `
-                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                  `,
-              backgroundSize: "30px 30px", // 격자 크기 조절
-            }}>
+            className="select-none mt-4 bg-inherit p-10 w-auto"
+            style={
+              {
+                //   backgroundImage: `
+                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                //       `,
+                //   backgroundSize: "30px 30px", // 격자 크기 조절
+              }
+            }>
             <p></p>
           </div>
         </div>
