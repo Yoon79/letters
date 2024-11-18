@@ -331,19 +331,33 @@ export default function Main() {
           </div>
 
           {/* Forth Message */}
-          <div
-            ref={div4Ref}
-            className="select-none mt-4 bg-inherit p-1 w-auto"
-            style={
-              {
-                //   backgroundImage: `
-                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                //       `,
-                //   backgroundSize: "30px 30px", // 격자 크기 조절
-              }
-            }>
-            <p></p>
+          <div>
+            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold">
+              from. 세윤
+            </div>
+            <div
+                ref={div2Ref}
+                className="select-none bg-white p-10 w-auto"
+                style={{
+                  backgroundImage: `
+                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                  `,
+                  backgroundSize: "30px 30px", // 격자 크기 조절
+                }}>
+              <p>
+              <strong>안녕, 최인영!</strong><br />
+                <br />
+                내가 처음에 생각했던 낙원은 말야. 엄청 큰 야자수가 있는 해변에 머물며 가벼운 차림으로 바다에 뛰어들기도 하고, 배고프면 다양한 종류의 피자를 먹거나 시원한 음료와 감자튀김을 마음껏 먹어도 건강한 삶을 상상했어. 레게 음악을 들으며 드라이브를 하고, 자연재해의 걱정도 없는 그런 곳 말이야.<br />
+                <br />
+                그리고, 지금 와서 또 생각해 보는 낙원은 내가 행복한 ‘상태’같아. 그래도 장소로 얘기하라면 내 방, 오늘 우연히 들린 카페, 선선한 밤공기를 맞으며 앉아있는 벤치 같은 것(안전해야 함). 어디든 될 수 있다고 생각해.<br />
+                <br />
+                그 도망친 곳에 낙원은 없다는 말에 대해 생각해 봤어. 누구를 기준으로 도망이라고 하는 건지, 도망이라는 말은 그 말을 하는 사람에게서 벗어나지 못하게 하려는 강한 말 아닌지. 그 말을 하는 사람은 그 상태를 벗어날 용기가 없는 건 아닐지. 내가 또 건방진 말을 하는 걸까? 그리고 왜 나는 이미 도망친 사람처럼 얘기하고 있는 건지.<br />
+                <br />
+                우리가 만드는 앨범으로 낙원을 표현할 수 있다고 생각해. 적어도 내가 정의하는 낙원은 말이야. ‘낙원’의 마지막 가사 한 줄이 내가 생각하는 낙원이야.<br />
+                <br />
+              </p>
+            </div>
           </div>
 
           {/* Fifth Message */}
