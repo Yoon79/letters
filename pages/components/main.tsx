@@ -158,7 +158,7 @@ export default function Main() {
                 ${activeSection === 8 ? "bg-[#e98143]" : ""}`}></button>
           </div>
         </div>
-        <div className="space-y-10 pt-5">
+        <div className="space-y-10 pt-5 font-sans">
           {/* First Message */}
           {/* <div
             ref={div1Ref}
@@ -180,7 +180,7 @@ export default function Main() {
                 //   color: "white", // 텍스트가 잘 보이도록 색상 변경
                 //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
               }}>
-              <p className="font-sans">
+              <p>
                 <strong>윤이</strong>
                 <br />
                 <br />
@@ -229,7 +229,7 @@ export default function Main() {
                   `,
                 backgroundSize: "30px 30px", // 격자 크기 조절
               }}>
-              <p className="font-sans">
+              <p>
                 <strong>안녕 최인영</strong>
                 <br />
                 <br />
@@ -298,19 +298,36 @@ export default function Main() {
           </div>
 
           {/* Third Message */}
-          <div
-            ref={div3Ref}
-            className="select-none mt-4 bg-inherit p-1 w-auto"
-            style={
-              {
-                //   backgroundImage: `
-                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                //       `,
-                //   backgroundSize: "30px 30px", // 격자 크기 조절
-              }
-            }>
-            <p></p>
+          <div>
+            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold">
+              from. 인영
+            </div>
+            <div
+                ref={div1Ref}
+                className="select-none  bg-white p-10 w-auto"
+                style={{
+                  backgroundImage: `
+                linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                `,
+                  backgroundSize: "30px 30px", // 격자 크기 조절
+                  //   backgroundImage: "url('images/back1.jpg')",
+                  //   color: "white", // 텍스트가 잘 보이도록 색상 변경
+                  //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
+                }}>
+              <p>
+                <strong>윤이</strong><br />
+                <br />
+                니가 놀란 너의 돌발행동들 말이야...! 사실 그거 굉장히 꾸준했다! 왜냐면 나는 우리가 친구가 되고부터 14년째인가 꾸준히 놀라고 있거든! (근데 우리 도파민중독은 좀 맞는 것 같아 ...껄껄)<br />
+                <br />
+                그리고 교환일기 처음 쓰는 기념으로 고백하는 건데.. 내가 영감 왔답시고 공책에 막 휘갈길 때 있잖아, 니가 막 뿌뿌한테 &apos;쉿쉿&apos; 거리고(참고로 그게 더 시끄러움), 손바닥으로 입 막으면서 과장된 몸짓으로 소리 삼켜내는 게 재밌어서 아무 음표나 그린 적.. 솔직히 몇 번 있어.. 미안. 그래도 앞으로도 조용히 부탁해 히히. 하지만 &apos;새벽이&apos; 는 진짜였어!!<br />
+                <br />
+                이번 앨범을 낙원으로 설명할 수 있을까? 낙원에 대해 얼마큼 생각해 봤어?<br />
+                나는 &apos;낙원&apos;이라는 노래를 만들고 나서야 구체적으로 그려본 것 같다. 왜 도망친 곳에 낙원은 없다고 하는건지 괜히 반박하고 싶은 마음도 있었지. 가끔은 즐길 수 없으면 피해도 되잖아. 내 사랑하는 사람들 품으로 도망쳐도 되잖아. 늘 내 뒷통수를 치는 것만 같은 희망들을. 그럼에도, 그럼에도.<br />
+                <br />
+                <br />
+              </p>
+            </div>
           </div>
 
           {/* Forth Message */}
