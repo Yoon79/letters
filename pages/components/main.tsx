@@ -303,7 +303,7 @@ export default function Main() {
               from. 인영
             </div>
             <div
-                ref={div1Ref}
+                ref={div3Ref}
                 className="select-none  bg-white p-10 w-auto"
                 style={{
                   backgroundImage: `
@@ -336,7 +336,7 @@ export default function Main() {
               from. 세윤
             </div>
             <div
-                ref={div2Ref}
+                ref={div4Ref}
                 className="select-none bg-white p-10 w-auto"
                 style={{
                   backgroundImage: `
