@@ -370,35 +370,97 @@ export default function Main() {
           </div>
 
           {/* Fifth Message */}
-          <div
-            ref={div5Ref}
-            className="select-none mt-4 bg-inherit p-1 w-auto"
-            style={
-              {
-                //   backgroundImage: `
-                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                //       `,
-                //   backgroundSize: "30px 30px", // 격자 크기 조절
-              }
-            }>
-            <p></p>
+          <div>
+            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold">
+              from. 인영
+            </div>
+            <div
+                ref={div5Ref}
+                className="select-none  bg-white p-10 w-auto"
+                style={{
+                  backgroundImage: `
+                linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                `,
+                  backgroundSize: "30px 30px", // 격자 크기 조절
+                  //   backgroundImage: "url('images/back1.jpg')",
+                  //   color: "white", // 텍스트가 잘 보이도록 색상 변경
+                  //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
+                }}>
+              <p>
+                <strong>윤이</strong><br />
+                <br />
+                요즘 계속 낭만에 젖은 상태였거든.<br />
+                그래서 앨범 회의를 하면서 &apos;낙원에 대한 스웨덴세탁소만의 정의를 내려보자&apos;라고 했을 때 머릿속에 온갖 동화 같은 풍경이 가득했었는데, 문득 오늘은 니 말처럼 낙원이 어떤 &apos;상태&apos; 인 것 같아.<br />
+                마음만 먹으면 어디든 낙원으로 펼쳐낼 수 있는데.<br />
+                그걸 자꾸만 잊어버리는 걸까.<br />
+                근데 뭐, 또 금방 바뀔 것 같아.<br />
+                매번 다르게 느껴져.<br />
+                <br />
+                여행은 어때?<br />
+                나는 옥수수를 먹으면서 이 편지를 쓰고 있어.<br />
+                옥수수는 먹을 땐 너무 맛있는데 먹고 나면 일단 턱이 너무 뻐근하고 오랜 시간 소화가 안되는 느낌이야. 그렇지만 그런 것들을 다 기꺼이 다시 겪어 낼 맛이니까...!<br />
+                <br />
+                아무튼,<br />
+                &apos;낙원&apos;은 좀 담담하게 부르고 싶어졌어.<br />
+                데모는 너무 절박해서 숨을 참는 느낌이었는데, 본 녹음은 깊게 숨을 내쉰 후의 느낌이었으면 싶어.<br />
+                <br />
+                &apos;나비&apos;는 만든 지가 꽤 오래되었는데 이제서야 발매할 수 있게 되었네!<br />
+                나비를 동경하는 번데기의 마음으로 이 노래를 쓰기 시작했는데 그때 당시 나에게 나비란 자유로움 그 자체였던 것 같아. 어쩌면 이 노래의 화자는 번데기보다는 축축하게 젖은 무거운 날개를 짊어진 나비였을지도 모르겠다. 그 무게를 감당하느라 날개가 있는지도 잊어버린.<br />
+                <br />
+                아무튼!<br />
+                나는 그 노래에서 &apos;아름다워 숨죽여, 날개를 편 너를 느끼면 어느새 내 마음도 바람을 타고 날아요&apos;라는 가사가 좋아! 그 가뿐하고 아름다운 날갯짓을 내가 가진 것만 같은 기분이 들어.<br />
+                <br />
+                <br />
+              </p>
+            </div>
           </div>
 
           {/* sixth Message */}
-          <div
-            ref={div6Ref}
-            className="select-none mt-4 bg-inherit p-1 w-auto"
-            style={
-              {
-                //   backgroundImage: `
-                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                //       `,
-                //   backgroundSize: "30px 30px", // 격자 크기 조절
-              }
-            }>
-            <p></p>
+          <div>
+            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold">
+              from. 세윤
+            </div>
+            <div
+                ref={div6Ref}
+                className="select-none bg-white p-10 w-auto"
+                style={{
+                  backgroundImage: `
+                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                  `,
+                  backgroundSize: "30px 30px", // 격자 크기 조절
+                }}>
+              <p>
+                <strong>최인영~~~</strong><br />
+                <br />
+                안녕!<br />
+                덕분에 신안 여행 잘 다녀왔어!<br />
+                친근한 고양이들도 많이 만나고 친절한 사람들도 많이 만났어. 날씨도 아까울 정도로 너무 좋았고 맛있는 것도 많이 먹었어. 문득 나의 말솜씨가 초라하게 느껴진다. 하지만 너는 엄청난 상상력을 가졌으니까 거기 맡겨 볼게. 최대한으로 상상해 줘. 미안 히히.<br />
+                <br />
+                아쉽게 가을이 벌써 가고 있어… 잡을 수 없는 것 중에 시간이 가장 야속하네. 앨범 준비를 시작할 때는 아주 더웠던 것 같은데, 어제는 갑자기 너무 추워서 딸꾹질을 두 번이나 했어!<br />
+                <br />
+                어제부로 노래 녹음이 다 끝났어! 어때? 후련해?<br />
+                &apos;낙원&apos;은 너의 바람대로 녹음이 잘 된 것 같아서 나는 뿌듯해! 아주 자랑스러워서 헹가래를 해주고 싶은데 혼자라서 역부족이야. 그렇다고 사람들을 설득해서 어찌저찌 모아서 결국 해주면 니가 싫어할 것 같기도 하고 히히(혹시 하고 싶으면 귀띔해 줘).<br />
+                <br />
+                작업할 때는 곡을 완전히 느끼지 못하는 편인데 &apos;낙원&apos;은 문득 훅하고 오더라구… &apos;Magical&apos;때처럼… 또르르… 녹음할 때 힘든 부분들을 자꾸 다시 시켰는데 포기하지 않고 잘 따라와 주어서 고마웠어… 잘 끝내줘서 기특해… 나 왜 자꾸 점을 찍지…? 나 가을 타나 봐…<br />
+                <br />
+                멋진 말로 낙원을 정의하고 싶은데 내 머릿속에는 &apos;낙낙낙킹온 낙원쓰 도어~&apos; 얘만 자꾸 맴도는걸.. 100가지의 하고 싶은 말들을 몇 가지의 간단한 단어로 표현하는 일은 어려운 것 같아.<br />
+                <br />
+                요즘 니가 하는 그 시골 생활 게임 말이야.<br />
+                그 시골 속 그 사람도 낙원에 있는 것 같아.<br />
+                아니면 그걸 하는 니 모습이 낙원 같기도 하고.<br />
+                아니면 니가 하는 걸 보는 내 상태가 낙원 같기도 하고.<br />
+                아니면 이 모든 걸 보고 함께 편안한 마음을 가지고 있는 모두가 하나의 낙원에 있는 것 같기도 하구!<br />
+                <br />
+                낙원의 기준이 너무 관대한가? 허허..<br />
+                그래도 뭐 난 좋아!<br />
+                계속해서 낙원에 대해 생각하다보니 주변에 있는 사람들에게 고마움을 느끼고, 습관처럼 행복을 느끼고, 나쁜 기운들은 그냥 쉽게 흘려보낼 수 있어서 좋아.<br />
+                <br />
+                이걸 뭐라고 해?<br />
+                <br />
+              </p>
+            </div>
           </div>
 
           {/* Seventh Message */}
