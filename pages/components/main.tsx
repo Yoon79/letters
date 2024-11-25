@@ -466,35 +466,94 @@ export default function Main() {
           </div>
 
           {/* Seventh Message */}
-          <div
-            ref={div7Ref}
-            className="select-none mt-4 bg-inherit p-1 w-auto"
-            style={
-              {
-                //   backgroundImage: `
-                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                //       `,
-                //   backgroundSize: "30px 30px", // 격자 크기 조절
-              }
-            }>
-            <p></p>
+          <div>
+            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold">
+              from. 인영
+            </div>
+            <div
+                ref={div7Ref}
+                className="select-none  bg-white p-10 w-auto"
+                style={{
+                  backgroundImage: `
+                linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                `,
+                  backgroundSize: "30px 30px", // 격자 크기 조절
+                  //   backgroundImage: "url('images/back1.jpg')",
+                  //   color: "white", // 텍스트가 잘 보이도록 색상 변경
+                  //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
+                }}>
+              <p>
+                <strong>윤니...</strong><br />
+                나도 가을 타나 봐.....<br />
+                어쩐지 계속 점을 찍고 싶더라니....<br />
+                <br />
+                &apos;그 상태&apos; 말이야.<br />
+                그 자체가 너의 낙원이네!<br />
+                멋지다!<br />
+                <br />
+                나 요즘 내가 10대였을 때 교복 입고 아이리버 엠피쓰리로 닳도록 듣던 노래들을 다시 듣거든. 그러면 진짜 그때의 내가 가졌던 생각들, 꿈꾸던 것들이 막 기억이 나. 그래서 종종 센치해지는데(가을 타나 봐 2....)<br />
+                우리가 만드는 노래들도 어떤 누군가에겐 그렇게 기억되면 좋겠다.<br />
+                <br />
+                그리고 그 시골 게임 정말 힐링이야.... 오늘 아기 고양이를 구해내어서 같이 살게 됐거든. 그래서 아기 고양이 줄 견과류를 줍느라 (게임 속)하루가 다 가. 우리 고양이 밥도 챙겨줘야 하구.. 허허<br />
+                <br />
+                요즘은 정말 시간이 차곡차곡 가는 것 같다.<br />
+                매일 끝내야 할 일들이 있어서 그런가.<br />
+                가을 날씨도 차곡차곡 피부에 새겨지는 것 같아 좋아.<br />
+                <br />
+                나는 올해 목표가 &apos;겁쟁이가 되지는 말기&apos;였거든.<br />
+                잘 해내는 중인지 잘 모르겠다.<br />
+                <br />
+                내년의 목표는<br />
+                &apos;마음껏&apos;으로 정했어!<br />
+                마음껏 할래 뭐든!<br />
+                <br />
+                추신. 헹가래는 사양할게!(제발)<br />
+                <br />
+              </p>
+            </div>
           </div>
 
           {/* Eightth Message */}
-          <div
-            ref={div8Ref}
-            className="select-none mt-4 bg-inherit p-1 w-auto"
-            style={
-              {
-                //   backgroundImage: `
-                //       linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
-                //       linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
-                //       `,
-                //   backgroundSize: "30px 30px", // 격자 크기 조절
-              }
-            }>
-            <p></p>
+          <div>
+            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold">
+              from. 세윤
+            </div>
+            <div
+                ref={div8Ref}
+                className="select-none bg-white p-10 w-auto"
+                style={{
+                  backgroundImage: `
+                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
+                  `,
+                  backgroundSize: "30px 30px", // 격자 크기 조절
+                }}>
+              <p>
+                <strong>안녕 최인영~~~~~</strong><br />
+                <br />
+                나는 지금 믹스 모니터를 하다가,<br />
+                혼자 잠깐 멈춰있어.<br />
+                <br />
+                벌써 2024년 달력을 다 써가.<br />
+                어디서 읽었는데, 익숙한 상황 일 때 우리 뇌가 자체적으로 편집을 해서 시간이 빨리 가게 느껴진다 했던 것 같애. 그래서 나는 내년에도 낯선 거 많이 해보고 싶어! 사실 그래서 낯선 것으로 가득 찬 여행을 좋아하기도 하구..<br />
+                <br />
+                올해 너의 목표! 잘 되어가?<br />
+                내가 옆에서 보기엔 잘 하고 있는 것 같아. 그리고 설령 목표를 달성하지 못하더라도 용감한 겁쟁이 정도만 되어도 성장한 거 아닐까? 히히. 내년 니 목표도 기대돼! 내가 왜 기대되는진 모르겠지만 벌써 신나!<br />
+                <br />
+                평소 산책할 때 이런저런 생각을 하느라 음악을 잘 안 듣는데, 코가 차가워지는 이맘때쯤에 나는 시규어로스를 찾게 돼. 무언가 따뜻한 걸 찾고 싶나 봐(우리 음악도 좀 따뜻하지 않나..? 호호..).<br />
+                누군가도 우리를 어떤 이유로라도 그렇게 한 번씩 찾아주면 좋겠다.<br />
+                <br />
+                첫 앨범 회의가 7월쯤이었나?<br />
+                15분 남짓한 그 안에 우리의 낙원을 욱여넣으며 울고 웃고 화나고 황당하고 슬프고 즐거웠고 행복하던 그 시간들도 우리의 낙원이었을 거야.<br />
+                <br />
+                고마웠고 고생 많았어.<br />
+                <br />
+                이제! 우리 그 황치즈 디저트 또 먹으러 가자!<br />
+                <br />
+                <br />
+              </p>
+            </div>
           </div>
         </div>
       </div>
