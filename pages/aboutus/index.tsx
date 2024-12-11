@@ -12,7 +12,7 @@ const AboutUs: NextPage = () => {
       <div className="max-w-2xl mx-auto py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
         <div className="flex justify-center">
           <img
-            src="/yellowdancer.png"
+            src="/done.png"
             alt="Picture of the author"
             width={300}
             height={400}
