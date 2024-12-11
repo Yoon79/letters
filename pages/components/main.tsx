@@ -842,6 +842,7 @@ export default function Main() {
                 backgroundSize: "30px 30px", // 격자 크기 조절
               }}>
               <p>
+                <strong>상은에게</strong><br /><br />
                 낙원에 슬픔을 위한 자리도 꼭 필요하다는 생각 너무 멋지다!
                 <br />
                 짧은 편지지만 그 안에 담긴 상은은
@@ -936,19 +937,20 @@ export default function Main() {
                 <br />
               </p>
             </div>
-            <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
+            <div className="px-10 w-full h-10 bg-[#e98143] items-center justify-start flex font-semibold">
               from. 스웨덴세탁소
             </div>
             <div
               className="select-none bg-white p-10 w-auto"
               style={{
                 backgroundImage: `
-                  linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
-                  linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
+                  linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
                   `,
                 backgroundSize: "30px 30px", // 격자 크기 조절
               }}>
               <p>
+                <strong>승현에게</strong><br /><br />
                 저도 승현 님과 같아요. 6월이었고, 잠을 잘 자지 못했고, 더운
                 여름이었지만 몸이 떨렸어요
                 <br />
