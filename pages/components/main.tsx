@@ -187,32 +187,32 @@ export default function Main() {
           </div>
           <div className="pt-2 flex justify-center space-x-2">
             <button
-                onClick={() => scrollToDiv(div9Ref)}
-                className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39] 
+              onClick={() => scrollToDiv(div9Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39] 
                 ${activeSection === 9 ? "bg-[#617a39]" : ""}`}></button>
             <button
-                onClick={() => scrollToDiv(div10Ref)}
-                className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
+              onClick={() => scrollToDiv(div10Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
                 ${activeSection === 10 ? "bg-[#617a39]" : ""}`}></button>
             <button
-                onClick={() => scrollToDiv(div11Ref)}
-                className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
+              onClick={() => scrollToDiv(div11Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
                 ${activeSection === 11 ? "bg-[#617a39]" : ""}`}></button>
             <button
-                onClick={() => scrollToDiv(div12Ref)}
-                className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
+              onClick={() => scrollToDiv(div12Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
                 ${activeSection === 12 ? "bg-[#617a39]" : ""}`}></button>
             <button
-                onClick={() => scrollToDiv(div13Ref)}
-                className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
+              onClick={() => scrollToDiv(div13Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
                 ${activeSection === 13 ? "bg-[#617a39]" : ""}`}></button>
             <button
-                onClick={() => scrollToDiv(div14Ref)}
-                className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
+              onClick={() => scrollToDiv(div14Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
                 ${activeSection === 14 ? "bg-[#617a39]" : ""}`}></button>
             <button
-                onClick={() => scrollToDiv(div15Ref)}
-                className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
+              onClick={() => scrollToDiv(div15Ref)}
+              className={`p-1.5 font-mono rounded-full border border-[#617a39] hover:bg-[#617a39]
                 ${activeSection === 15 ? "bg-[#617a39]" : ""}`}></button>
           </div>
         </div>
@@ -361,36 +361,63 @@ export default function Main() {
               from. 인영
             </div>
             <div
-                ref={div3Ref}
-                className="select-none  bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div3Ref}
+              className="select-none  bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                 linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
                 linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
                 `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                  //   backgroundImage: "url('images/back1.jpg')",
-                  //   color: "white", // 텍스트가 잘 보이도록 색상 변경
-                  //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+                //   backgroundImage: "url('images/back1.jpg')",
+                //   color: "white", // 텍스트가 잘 보이도록 색상 변경
+                //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
+              }}>
               <p>
-                <strong>윤이</strong><br />
+                <strong>윤이</strong>
                 <br />
-                니가 놀란 너의 돌발행동들 말이야...! 사실 그거 굉장히 꾸준했다! 왜냐면 나는 우리가 친구가 되고부터 14년째인가 꾸준히 놀라고 있거든! (근데 우리 도파민중독은 좀 맞는 것 같아 ...껄껄)<br />
                 <br />
-                그리고 교환일기 처음 쓰는 기념으로 고백하는 건데.. 내가 영감 왔답시고 공책에 막 휘갈길 때 있잖아, 니가 막 뿌뿌한테 &apos;쉿쉿&apos; 거리고(참고로 그게 더 시끄러움), 손바닥으로 입 막으면서 과장된 몸짓으로 소리 삼켜내는 게 재밌어서 아무 음표나 그린 적.. 솔직히 몇 번 있어.. 미안. 그래도 앞으로도 조용히 부탁해 히히. 하지만 &apos;새벽이&apos; 는 진짜였어!!<br />
+                니가 놀란 너의 돌발행동들 말이야...! 사실 그거 굉장히 꾸준했다!
+                왜냐면 나는 우리가 친구가 되고부터 14년째인가 꾸준히 놀라고
+                있거든! (근데 우리 도파민중독은 좀 맞는 것 같아 ...껄껄)
                 <br />
-                이번 앨범을 낙원으로 설명할 수 있을까? 낙원에 대해 얼마큼 생각해 봤어?<br />
-                나는 &apos;낙원&apos;이라는 노래를 만들고 나서야 구체적으로 그려본 것 같다. 왜 도망친 곳에 낙원은 없다고 하는건지 괜히 반박하고 싶은 마음도 있었지. 가끔은 즐길 수 없으면 피해도 되잖아. 내 사랑하는 사람들 품으로 도망쳐도 되잖아. 늘 내 뒤통수를 치는 것만 같은 &apos;희망&apos;들을 그럼에도, 그럼에도 끌어안고 말이야.<br />
                 <br />
-                그 노래 속 가사들은 결국 스스로에게 하고 싶은 말이었던 것 같아. 내 내면의 목소리들을 외면하는 일이 사실 가장 많으니까.<br />
+                그리고 교환일기 처음 쓰는 기념으로 고백하는 건데.. 내가 영감
+                왔답시고 공책에 막 휘갈길 때 있잖아, 니가 막 뿌뿌한테
+                &apos;쉿쉿&apos; 거리고(참고로 그게 더 시끄러움), 손바닥으로 입
+                막으면서 과장된 몸짓으로 소리 삼켜내는 게 재밌어서 아무 음표나
+                그린 적.. 솔직히 몇 번 있어.. 미안. 그래도 앞으로도 조용히
+                부탁해 히히. 하지만 &apos;새벽이&apos; 는 진짜였어!!
                 <br />
-                나는 낙원을 생각하면 항상 바다가 떠올라. 야자수도 있고, 해변은 모래가 고와서 맨발로 걸어도 하나도 아프지 않고. 사랑하는 사람들, 함께 있으면 편안해지는 사람들과 맛있는 걸 먹고.<br />
                 <br />
-                뿌뿌에게도 그곳이 낙원일까.<br />
-                그 고운 모래는 뿌뿌가 쉬를 하면 잘 응고가 될까 하는 엉뚱한 생각들로 빠지긴 하지만...<br />
+                이번 앨범을 낙원으로 설명할 수 있을까? 낙원에 대해 얼마큼 생각해
+                봤어?
                 <br />
-                니가 그리는 &apos;낙원&apos;도 궁금하다.<br />
+                나는 &apos;낙원&apos;이라는 노래를 만들고 나서야 구체적으로
+                그려본 것 같다. 왜 도망친 곳에 낙원은 없다고 하는건지 괜히
+                반박하고 싶은 마음도 있었지. 가끔은 즐길 수 없으면 피해도
+                되잖아. 내 사랑하는 사람들 품으로 도망쳐도 되잖아. 늘 내
+                뒤통수를 치는 것만 같은 &apos;희망&apos;들을 그럼에도, 그럼에도
+                끌어안고 말이야.
+                <br />
+                <br />
+                그 노래 속 가사들은 결국 스스로에게 하고 싶은 말이었던 것 같아.
+                내 내면의 목소리들을 외면하는 일이 사실 가장 많으니까.
+                <br />
+                <br />
+                나는 낙원을 생각하면 항상 바다가 떠올라. 야자수도 있고, 해변은
+                모래가 고와서 맨발로 걸어도 하나도 아프지 않고. 사랑하는 사람들,
+                함께 있으면 편안해지는 사람들과 맛있는 걸 먹고.
+                <br />
+                <br />
+                뿌뿌에게도 그곳이 낙원일까.
+                <br />
+                그 고운 모래는 뿌뿌가 쉬를 하면 잘 응고가 될까 하는 엉뚱한
+                생각들로 빠지긴 하지만...
+                <br />
+                <br />
+                니가 그리는 &apos;낙원&apos;도 궁금하다.
+                <br />
                 <br />
                 <br />
               </p>
@@ -403,27 +430,51 @@ export default function Main() {
               from. 세윤
             </div>
             <div
-                ref={div4Ref}
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div4Ref}
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-              <strong>안녕, 최인영!</strong><br />
+                <strong>안녕, 최인영!</strong>
                 <br />
-                내가 처음에 생각했던 낙원은 말야. 엄청 큰 야자수가 있는 해변에 머물며 가벼운 차림으로 바다에 뛰어들기도 하고, 배고프면 다양한 종류의 피자를 먹거나 시원한 음료와 감자튀김을 마음껏 먹어도 건강한 삶을 상상했어. 레게 음악을 들으며 드라이브를 하고, 자연재해의 걱정도 없는 그런 곳 말이야.<br />
                 <br />
-                그리고, 지금 와서 또 생각해 보는 낙원은 내가 행복한 ‘상태’같아. 그래도 장소로 얘기하라면 내 방, 오늘 우연히 들린 카페, 선선한 밤공기를 맞으며 앉아있는 벤치 같은 것(안전해야 함). 어디든 될 수 있다고 생각해.<br />
+                내가 처음에 생각했던 낙원은 말야. 엄청 큰 야자수가 있는 해변에
+                머물며 가벼운 차림으로 바다에 뛰어들기도 하고, 배고프면 다양한
+                종류의 피자를 먹거나 시원한 음료와 감자튀김을 마음껏 먹어도
+                건강한 삶을 상상했어. 레게 음악을 들으며 드라이브를 하고,
+                자연재해의 걱정도 없는 그런 곳 말이야.
                 <br />
-                그 도망친 곳에 낙원은 없다는 말에 대해 생각해 봤어. 누구를 기준으로 도망이라고 하는 건지, 도망이라는 말은 그 말을 하는 사람에게서 벗어나지 못하게 하려는 강한 말 아닌지. 그 말을 하는 사람은 그 상태를 벗어날 용기가 없는 건 아닐지. 내가 또 건방진 말을 하는 걸까? 그리고 왜 나는 이미 도망친 사람처럼 얘기하고 있는 건지.<br />
                 <br />
-                우리가 만드는 앨범으로 낙원을 표현할 수 있다고 생각해. 적어도 내가 정의하는 낙원은 말이야. ‘낙원’의 마지막 가사 한 줄이 내가 생각하는 낙원이야.<br />
+                그리고, 지금 와서 또 생각해 보는 낙원은 내가 행복한 ‘상태’같아.
+                그래도 장소로 얘기하라면 내 방, 오늘 우연히 들린 카페, 선선한
+                밤공기를 맞으며 앉아있는 벤치 같은 것(안전해야 함). 어디든 될 수
+                있다고 생각해.
                 <br />
-                <small><i>* ‘낙원’ : ‘해로운 희망을 껴안고 너와 휘청일 수 있다면’의 데모 제목</i></small>
+                <br />
+                그 도망친 곳에 낙원은 없다는 말에 대해 생각해 봤어. 누구를
+                기준으로 도망이라고 하는 건지, 도망이라는 말은 그 말을 하는
+                사람에게서 벗어나지 못하게 하려는 강한 말 아닌지. 그 말을 하는
+                사람은 그 상태를 벗어날 용기가 없는 건 아닐지. 내가 또 건방진
+                말을 하는 걸까? 그리고 왜 나는 이미 도망친 사람처럼 얘기하고
+                있는 건지.
+                <br />
+                <br />
+                우리가 만드는 앨범으로 낙원을 표현할 수 있다고 생각해. 적어도
+                내가 정의하는 낙원은 말이야. ‘낙원’의 마지막 가사 한 줄이 내가
+                생각하는 낙원이야.
+                <br />
+                <br />
+                <small>
+                  <i>
+                    * ‘낙원’ : ‘해로운 희망을 껴안고 너와 휘청일 수 있다면’의
+                    데모 제목
+                  </i>
+                </small>
                 <br />
               </p>
             </div>
@@ -435,41 +486,71 @@ export default function Main() {
               from. 인영
             </div>
             <div
-                ref={div5Ref}
-                className="select-none  bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div5Ref}
+              className="select-none  bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                 linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
                 linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
                 `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                  //   backgroundImage: "url('images/back1.jpg')",
-                  //   color: "white", // 텍스트가 잘 보이도록 색상 변경
-                  //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+                //   backgroundImage: "url('images/back1.jpg')",
+                //   color: "white", // 텍스트가 잘 보이도록 색상 변경
+                //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
+              }}>
               <p>
-                <strong>윤이</strong><br />
+                <strong>윤이</strong>
                 <br />
-                요즘 계속 낭만에 젖은 상태였거든.<br />
-                그래서 앨범 회의를 하면서 &apos;낙원에 대한 스웨덴세탁소만의 정의를 내려보자&apos;라고 했을 때 머릿속에 온갖 동화 같은 풍경이 가득했었는데, 문득 오늘은 니 말처럼 낙원이 어떤 &apos;상태&apos; 인 것 같아.<br />
-                마음만 먹으면 어디든 낙원으로 펼쳐낼 수 있는데.<br />
-                그걸 자꾸만 잊어버리는 걸까.<br />
-                근데 뭐, 또 금방 바뀔 것 같아.<br />
-                매번 다르게 느껴져.<br />
                 <br />
-                여행은 어때?<br />
-                나는 옥수수를 먹으면서 이 편지를 쓰고 있어.<br />
-                옥수수는 먹을 땐 너무 맛있는데 먹고 나면 일단 턱이 너무 뻐근하고 오랜 시간 소화가 안되는 느낌이야. 그렇지만 그런 것들을 다 기꺼이 다시 겪어 낼 맛이니까...!<br />
+                요즘 계속 낭만에 젖은 상태였거든.
                 <br />
-                아무튼,<br />
-                &apos;낙원&apos;은 좀 담담하게 부르고 싶어졌어.<br />
-                데모는 너무 절박해서 숨을 참는 느낌이었는데, 본 녹음은 깊게 숨을 내쉰 후의 느낌이었으면 싶어.<br />
+                그래서 앨범 회의를 하면서 &apos;낙원에 대한 스웨덴세탁소만의
+                정의를 내려보자&apos;라고 했을 때 머릿속에 온갖 동화 같은 풍경이
+                가득했었는데, 문득 오늘은 니 말처럼 낙원이 어떤 &apos;상태&apos;
+                인 것 같아.
                 <br />
-                &apos;나비&apos;는 만든 지가 꽤 오래되었는데 이제서야 발매할 수 있게 되었네!<br />
-                나비를 동경하는 번데기의 마음으로 이 노래를 쓰기 시작했는데 그때 당시 나에게 나비란 자유로움 그 자체였던 것 같아. 어쩌면 이 노래의 화자는 번데기보다는 축축하게 젖은 무거운 날개를 짊어진 나비였을지도 모르겠다. 그 무게를 감당하느라 날개가 있는지도 잊어버린.<br />
+                마음만 먹으면 어디든 낙원으로 펼쳐낼 수 있는데.
                 <br />
-                아무튼!<br />
-                나는 그 노래에서 &apos;아름다워 숨죽여, 날개를 편 너를 느끼면 어느새 내 마음도 바람을 타고 날아요&apos;라는 가사가 좋아! 그 가뿐하고 아름다운 날갯짓을 내가 가진 것만 같은 기분이 들어.<br />
+                그걸 자꾸만 잊어버리는 걸까.
+                <br />
+                근데 뭐, 또 금방 바뀔 것 같아.
+                <br />
+                매번 다르게 느껴져.
+                <br />
+                <br />
+                여행은 어때?
+                <br />
+                나는 옥수수를 먹으면서 이 편지를 쓰고 있어.
+                <br />
+                옥수수는 먹을 땐 너무 맛있는데 먹고 나면 일단 턱이 너무 뻐근하고
+                오랜 시간 소화가 안되는 느낌이야. 그렇지만 그런 것들을 다 기꺼이
+                다시 겪어 낼 맛이니까...!
+                <br />
+                <br />
+                아무튼,
+                <br />
+                &apos;낙원&apos;은 좀 담담하게 부르고 싶어졌어.
+                <br />
+                데모는 너무 절박해서 숨을 참는 느낌이었는데, 본 녹음은 깊게 숨을
+                내쉰 후의 느낌이었으면 싶어.
+                <br />
+                <br />
+                &apos;나비&apos;는 만든 지가 꽤 오래되었는데 이제서야 발매할 수
+                있게 되었네!
+                <br />
+                나비를 동경하는 번데기의 마음으로 이 노래를 쓰기 시작했는데 그때
+                당시 나에게 나비란 자유로움 그 자체였던 것 같아. 어쩌면 이
+                노래의 화자는 번데기보다는 축축하게 젖은 무거운 날개를 짊어진
+                나비였을지도 모르겠다. 그 무게를 감당하느라 날개가 있는지도
+                잊어버린.
+                <br />
+                <br />
+                아무튼!
+                <br />
+                나는 그 노래에서 &apos;아름다워 숨죽여, 날개를 편 너를 느끼면
+                어느새 내 마음도 바람을 타고 날아요&apos;라는 가사가 좋아! 그
+                가뿐하고 아름다운 날갯짓을 내가 가진 것만 같은 기분이 들어.
+                <br />
                 <br />
                 <br />
               </p>
@@ -482,42 +563,78 @@ export default function Main() {
               from. 세윤
             </div>
             <div
-                ref={div6Ref}
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div6Ref}
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-                <strong>최인영~~~</strong><br />
+                <strong>최인영~~~</strong>
                 <br />
-                안녕!<br />
-                덕분에 신안 여행 잘 다녀왔어!<br />
-                친근한 고양이들도 많이 만나고 친절한 사람들도 많이 만났어. 날씨도 아까울 정도로 너무 좋았고 맛있는 것도 많이 먹었어. 문득 나의 말솜씨가 초라하게 느껴진다. 하지만 너는 엄청난 상상력을 가졌으니까 거기 맡겨 볼게. 최대한으로 상상해 줘. 미안 히히.<br />
                 <br />
-                아쉽게 가을이 벌써 가고 있어… 잡을 수 없는 것 중에 시간이 가장 야속하네. 앨범 준비를 시작할 때는 아주 더웠던 것 같은데, 어제는 갑자기 너무 추워서 딸꾹질을 두 번이나 했어!<br />
+                안녕!
                 <br />
-                어제부로 노래 녹음이 다 끝났어! 어때? 후련해?<br />
-                &apos;낙원&apos;은 너의 바람대로 녹음이 잘 된 것 같아서 나는 뿌듯해! 아주 자랑스러워서 헹가래를 해주고 싶은데 혼자라서 역부족이야. 그렇다고 사람들을 설득해서 어찌저찌 모아서 결국 해주면 니가 싫어할 것 같기도 하고 히히(혹시 하고 싶으면 귀띔해 줘).<br />
+                덕분에 신안 여행 잘 다녀왔어!
                 <br />
-                작업할 때는 곡을 완전히 느끼지 못하는 편인데 &apos;낙원&apos;은 문득 훅하고 오더라구… &apos;Magical&apos;때처럼… 또르르… 녹음할 때 힘든 부분들을 자꾸 다시 시켰는데 포기하지 않고 잘 따라와 주어서 고마웠어… 잘 끝내줘서 기특해… 나 왜 자꾸 점을 찍지…? 나 가을 타나 봐…<br />
+                친근한 고양이들도 많이 만나고 친절한 사람들도 많이 만났어.
+                날씨도 아까울 정도로 너무 좋았고 맛있는 것도 많이 먹었어. 문득
+                나의 말솜씨가 초라하게 느껴진다. 하지만 너는 엄청난 상상력을
+                가졌으니까 거기 맡겨 볼게. 최대한으로 상상해 줘. 미안 히히.
                 <br />
-                멋진 말로 낙원을 정의하고 싶은데 내 머릿속에는 &apos;낙낙낙킹온 낙원쓰 도어~&apos; 얘만 자꾸 맴도는걸.. 100가지의 하고 싶은 말들을 몇 가지의 간단한 단어로 표현하는 일은 어려운 것 같아.<br />
                 <br />
-                요즘 니가 하는 그 시골 생활 게임 말이야.<br />
-                그 시골 속 그 사람도 낙원에 있는 것 같아.<br />
-                아니면 그걸 하는 니 모습이 낙원 같기도 하고.<br />
-                아니면 니가 하는 걸 보는 내 상태가 낙원 같기도 하고.<br />
-                아니면 이 모든 걸 보고 함께 편안한 마음을 가지고 있는 모두가 하나의 낙원에 있는 것 같기도 하구!<br />
+                아쉽게 가을이 벌써 가고 있어… 잡을 수 없는 것 중에 시간이 가장
+                야속하네. 앨범 준비를 시작할 때는 아주 더웠던 것 같은데, 어제는
+                갑자기 너무 추워서 딸꾹질을 두 번이나 했어!
                 <br />
-                낙원의 기준이 너무 관대한가? 허허..<br />
-                그래도 뭐 난 좋아!<br />
-                계속해서 낙원에 대해 생각하다보니 주변에 있는 사람들에게 고마움을 느끼고, 습관처럼 행복을 느끼고, 나쁜 기운들은 그냥 쉽게 흘려보낼 수 있어서 좋아.<br />
                 <br />
-                이걸 뭐라고 해?<br />
+                어제부로 노래 녹음이 다 끝났어! 어때? 후련해?
+                <br />
+                &apos;낙원&apos;은 너의 바람대로 녹음이 잘 된 것 같아서 나는
+                뿌듯해! 아주 자랑스러워서 헹가래를 해주고 싶은데 혼자라서
+                역부족이야. 그렇다고 사람들을 설득해서 어찌저찌 모아서 결국
+                해주면 니가 싫어할 것 같기도 하고 히히(혹시 하고 싶으면 귀띔해
+                줘).
+                <br />
+                <br />
+                작업할 때는 곡을 완전히 느끼지 못하는 편인데 &apos;낙원&apos;은
+                문득 훅하고 오더라구… &apos;Magical&apos;때처럼… 또르르… 녹음할
+                때 힘든 부분들을 자꾸 다시 시켰는데 포기하지 않고 잘 따라와
+                주어서 고마웠어… 잘 끝내줘서 기특해… 나 왜 자꾸 점을 찍지…? 나
+                가을 타나 봐…
+                <br />
+                <br />
+                멋진 말로 낙원을 정의하고 싶은데 내 머릿속에는 &apos;낙낙낙킹온
+                낙원쓰 도어~&apos; 얘만 자꾸 맴도는걸.. 100가지의 하고 싶은
+                말들을 몇 가지의 간단한 단어로 표현하는 일은 어려운 것 같아.
+                <br />
+                <br />
+                요즘 니가 하는 그 시골 생활 게임 말이야.
+                <br />
+                그 시골 속 그 사람도 낙원에 있는 것 같아.
+                <br />
+                아니면 그걸 하는 니 모습이 낙원 같기도 하고.
+                <br />
+                아니면 니가 하는 걸 보는 내 상태가 낙원 같기도 하고.
+                <br />
+                아니면 이 모든 걸 보고 함께 편안한 마음을 가지고 있는 모두가
+                하나의 낙원에 있는 것 같기도 하구!
+                <br />
+                <br />
+                낙원의 기준이 너무 관대한가? 허허..
+                <br />
+                그래도 뭐 난 좋아!
+                <br />
+                계속해서 낙원에 대해 생각하다보니 주변에 있는 사람들에게
+                고마움을 느끼고, 습관처럼 행복을 느끼고, 나쁜 기운들은 그냥 쉽게
+                흘려보낼 수 있어서 좋아.
+                <br />
+                <br />
+                이걸 뭐라고 해?
+                <br />
                 <br />
               </p>
             </div>
@@ -529,44 +646,68 @@ export default function Main() {
               from. 인영
             </div>
             <div
-                ref={div7Ref}
-                className="select-none  bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div7Ref}
+              className="select-none  bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                 linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
                 linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
                 `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                  //   backgroundImage: "url('images/back1.jpg')",
-                  //   color: "white", // 텍스트가 잘 보이도록 색상 변경
-                  //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+                //   backgroundImage: "url('images/back1.jpg')",
+                //   color: "white", // 텍스트가 잘 보이도록 색상 변경
+                //   textShadow: "1px 1px 3px rgba(0,0,0,0.8)", // 텍스트 가독성을 위한 그림자 효과
+              }}>
               <p>
-                <strong>윤니...</strong><br />
-                나도 가을 타나 봐.....<br />
-                어쩐지 계속 점을 찍고 싶더라니....<br />
+                <strong>윤니...</strong>
                 <br />
-                &apos;그 상태&apos; 말이야.<br />
-                그 자체가 너의 낙원이네!<br />
-                멋지다!<br />
+                나도 가을 타나 봐.....
                 <br />
-                나 요즘 내가 10대였을 때 교복 입고 아이리버 엠피쓰리로 닳도록 듣던 노래들을 다시 듣거든. 그러면 진짜 그때의 내가 가졌던 생각들, 꿈꾸던 것들이 막 기억이 나. 그래서 종종 센치해지는데(가을 타나 봐 2....)<br />
-                우리가 만드는 노래들도 어떤 누군가에겐 그렇게 기억되면 좋겠다.<br />
+                어쩐지 계속 점을 찍고 싶더라니....
                 <br />
-                그리고 그 시골 게임 정말 힐링이야.... 오늘 아기 고양이를 구해내어서 같이 살게 됐거든. 그래서 아기 고양이 줄 견과류를 줍느라 (게임 속)하루가 다 가. 우리 고양이 밥도 챙겨줘야 하구.. 허허<br />
                 <br />
-                요즘은 정말 시간이 차곡차곡 가는 것 같다.<br />
-                매일 끝내야 할 일들이 있어서 그런가.<br />
-                가을 날씨도 차곡차곡 피부에 새겨지는 것 같아 좋아.<br />
+                &apos;그 상태&apos; 말이야.
                 <br />
-                나는 올해 목표가 &apos;겁쟁이가 되지는 말기&apos;였거든.<br />
-                잘 해내는 중인지 잘 모르겠다.<br />
+                그 자체가 너의 낙원이네!
                 <br />
-                내년의 목표는<br />
-                &apos;마음껏&apos;으로 정했어!<br />
-                마음껏 할래 뭐든!<br />
+                멋지다!
                 <br />
-                추신. 헹가래는 사양할게!(제발)<br />
+                <br />
+                나 요즘 내가 10대였을 때 교복 입고 아이리버 엠피쓰리로 닳도록
+                듣던 노래들을 다시 듣거든. 그러면 진짜 그때의 내가 가졌던
+                생각들, 꿈꾸던 것들이 막 기억이 나. 그래서 종종
+                센치해지는데(가을 타나 봐 2....)
+                <br />
+                우리가 만드는 노래들도 어떤 누군가에겐 그렇게 기억되면 좋겠다.
+                <br />
+                <br />
+                그리고 그 시골 게임 정말 힐링이야.... 오늘 아기 고양이를
+                구해내어서 같이 살게 됐거든. 그래서 아기 고양이 줄 견과류를
+                줍느라 (게임 속)하루가 다 가. 우리 고양이 밥도 챙겨줘야 하구..
+                허허
+                <br />
+                <br />
+                요즘은 정말 시간이 차곡차곡 가는 것 같다.
+                <br />
+                매일 끝내야 할 일들이 있어서 그런가.
+                <br />
+                가을 날씨도 차곡차곡 피부에 새겨지는 것 같아 좋아.
+                <br />
+                <br />
+                나는 올해 목표가 &apos;겁쟁이가 되지는 말기&apos;였거든.
+                <br />
+                잘 해내는 중인지 잘 모르겠다.
+                <br />
+                <br />
+                내년의 목표는
+                <br />
+                &apos;마음껏&apos;으로 정했어!
+                <br />
+                마음껏 할래 뭐든!
+                <br />
+                <br />
+                추신. 헹가래는 사양할게!(제발)
+                <br />
                 <br />
               </p>
             </div>
@@ -578,70 +719,113 @@ export default function Main() {
               from. 세윤
             </div>
             <div
-                ref={div8Ref}
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div8Ref}
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(233, 129, 67, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(233, 175, 32, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-                <strong>안녕 최인영~~~~~</strong><br />
+                <strong>안녕 최인영~~~~~</strong>
                 <br />
-                나는 지금 믹스 모니터를 하다가,<br />
-                혼자 잠깐 멈춰있어.<br />
                 <br />
-                벌써 2024년 달력을 다 써가.<br />
-                어디서 읽었는데, 익숙한 상황 일 때 우리 뇌가 자체적으로 편집을 해서 시간이 빨리 가게 느껴진다 했던 것 같애. 그래서 나는 내년에도 낯선 거 많이 해보고 싶어! 사실 그래서 낯선 것으로 가득 찬 여행을 좋아하기도 하구..<br />
+                나는 지금 믹스 모니터를 하다가,
                 <br />
-                올해 너의 목표! 잘 되어가?<br />
-                내가 옆에서 보기엔 잘 하고 있는 것 같아. 그리고 설령 목표를 달성하지 못하더라도 용감한 겁쟁이 정도만 되어도 성장한 거 아닐까? 히히. 내년 니 목표도 기대돼! 내가 왜 기대되는진 모르겠지만 벌써 신나!<br />
+                혼자 잠깐 멈춰있어.
                 <br />
-                평소 산책할 때 이런저런 생각을 하느라 음악을 잘 안 듣는데, 코가 차가워지는 이맘때쯤에 나는 시규어로스를 찾게 돼. 무언가 따뜻한 걸 찾고 싶나 봐(우리 음악도 좀 따뜻하지 않나..? 호호..).<br />
-                누군가도 우리를 어떤 이유로라도 그렇게 한 번씩 찾아주면 좋겠다.<br />
                 <br />
-                첫 앨범 회의가 7월쯤이었나?<br />
-                15분 남짓한 그 안에 우리의 낙원을 욱여넣으며 울고 웃고 화나고 황당하고 슬프고 즐거웠고 행복하던 그 시간들도 우리의 낙원이었을 거야.<br />
+                벌써 2024년 달력을 다 써가.
                 <br />
-                고마웠고 고생 많았어.<br />
+                어디서 읽었는데, 익숙한 상황 일 때 우리 뇌가 자체적으로 편집을
+                해서 시간이 빨리 가게 느껴진다 했던 것 같애. 그래서 나는
+                내년에도 낯선 거 많이 해보고 싶어! 사실 그래서 낯선 것으로 가득
+                찬 여행을 좋아하기도 하구..
                 <br />
-                이제! 우리 그 황치즈 디저트 또 먹으러 가자!<br />
+                <br />
+                올해 너의 목표! 잘 되어가?
+                <br />
+                내가 옆에서 보기엔 잘 하고 있는 것 같아. 그리고 설령 목표를
+                달성하지 못하더라도 용감한 겁쟁이 정도만 되어도 성장한 거
+                아닐까? 히히. 내년 니 목표도 기대돼! 내가 왜 기대되는진
+                모르겠지만 벌써 신나!
+                <br />
+                <br />
+                평소 산책할 때 이런저런 생각을 하느라 음악을 잘 안 듣는데, 코가
+                차가워지는 이맘때쯤에 나는 시규어로스를 찾게 돼. 무언가 따뜻한
+                걸 찾고 싶나 봐(우리 음악도 좀 따뜻하지 않나..? 호호..).
+                <br />
+                누군가도 우리를 어떤 이유로라도 그렇게 한 번씩 찾아주면 좋겠다.
+                <br />
+                <br />
+                첫 앨범 회의가 7월쯤이었나?
+                <br />
+                15분 남짓한 그 안에 우리의 낙원을 욱여넣으며 울고 웃고 화나고
+                황당하고 슬프고 즐거웠고 행복하던 그 시간들도 우리의 낙원이었을
+                거야.
+                <br />
+                <br />
+                고마웠고 고생 많았어.
+                <br />
+                <br />
+                이제! 우리 그 황치즈 디저트 또 먹으러 가자!
+                <br />
                 <br />
                 <br />
               </p>
             </div>
           </div>
 
-          {/* 9th Message */}
+          {/* 9th Message 답장 1*/}
           <div>
             <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
               from. 상은
             </div>
             <div
-                ref={div9Ref}
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div9Ref}
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-                교환일기 잘 봤어!<br />
-                참 우리 주인장들답다 싶은 말들이 적혀있으면서도<br />
-                낙원이라는 막연한 단어에 대해서 깊게 생각해 본 게 참 오래전이구나라는 생각도 들었어.<br />
+                교환일기 잘 봤어!
                 <br />
-                나에게 낙원이라...<br />
-                가사에 적힌 &apos;해로운 희망&apos;과 비슷할 수도 있는데<br />
-                내게 낙원이라는 곳은 &apos;행복한 슬픔&apos;같은 느낌이었어. 죽을 것을 알면서도 달려나가던 델마와 루이스를 보며 느꼈던 감정이 너무 와닿아서 였을까?<br />
-                낙원이란 공간은 슬픔마저도 행복하게 느껴지는 곳이 아닐까라는 생각이었지. 낙원 한 곳에 슬픔을 위한 자리도 꼭 필요하겠다는 마음도 있고 ㅎ<br />
-                그래서 난 &apos;Lost in paradise&apos;라는 문장을 참 좋아해. 그곳에서 길을 잃었다면 난 당분간 그곳에 머물 수 있다는 거니까.<br />
+                참 우리 주인장들답다 싶은 말들이 적혀있으면서도
                 <br />
-                어쨌건 간에 교환일기를 보며 노래를 듣고 여운이 많이 남는 요즘이야. 처음부터 지금까지 늘 좋았지만 정말 성숙해진 느낌이 많이 들었던 앨범이야.<br />
-                극 T인 내게도 감성을 한 스푼 넣어주는 노래를 들려줘서 항상 고마워. 날이 추워졌는데 감기 조심하고 다음에도 이렇게 서로 마음 나눌 수 있는 콘텐츠가 있었으면 좋겠다. 다음 일기도 기다리고 있을게 :)<br />
+                낙원이라는 막연한 단어에 대해서 깊게 생각해 본 게 참
+                오래전이구나라는 생각도 들었어.
+                <br />
+                <br />
+                나에게 낙원이라...
+                <br />
+                가사에 적힌 &apos;해로운 희망&apos;과 비슷할 수도 있는데
+                <br />
+                내게 낙원이라는 곳은 &apos;행복한 슬픔&apos;같은 느낌이었어.
+                죽을 것을 알면서도 달려나가던 델마와 루이스를 보며 느꼈던 감정이
+                너무 와닿아서 였을까?
+                <br />
+                낙원이란 공간은 슬픔마저도 행복하게 느껴지는 곳이 아닐까라는
+                생각이었지. 낙원 한 곳에 슬픔을 위한 자리도 꼭 필요하겠다는
+                마음도 있고 ㅎ<br />
+                그래서 난 &apos;Lost in paradise&apos;라는 문장을 참 좋아해.
+                그곳에서 길을 잃었다면 난 당분간 그곳에 머물 수 있다는 거니까.
+                <br />
+                <br />
+                어쨌건 간에 교환일기를 보며 노래를 듣고 여운이 많이 남는
+                요즘이야. 처음부터 지금까지 늘 좋았지만 정말 성숙해진 느낌이
+                많이 들었던 앨범이야.
+                <br />
+                극 T인 내게도 감성을 한 스푼 넣어주는 노래를 들려줘서 항상
+                고마워. 날이 추워졌는데 감기 조심하고 다음에도 이렇게 서로 마음
+                나눌 수 있는 콘텐츠가 있었으면 좋겠다. 다음 일기도 기다리고
+                있을게 :)
+                <br />
                 <br />
               </p>
             </div>
@@ -649,275 +833,254 @@ export default function Main() {
               from. 스웨덴세탁소
             </div>
             <div
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-                낙원에 슬픔을 위한 자리도 꼭 필요하다는 생각 너무 멋지다!<br />
-                짧은 편지지만 그 안에 담긴 상은은<br />
-                &apos;해로운 희망&apos;도 &apos;행복한 슬픔&apos;도 모두 기꺼이 끌어안을 준비가 된 사람인 것 같아.<br />
-                배우고 싶어.<br />
+                낙원에 슬픔을 위한 자리도 꼭 필요하다는 생각 너무 멋지다!
                 <br />
-                &apos;성숙&apos; 해진 앨범이라는 표현은 처음 들어보는 것 같아! 어떤 이유에서일까 되게 자세히 물어보고 싶은데 그냥 그 문장을 보고 좋았던 기분만 간직할게♡<br />
-                극 T 지만 우리에게만은 대문자 F의 표현을 전해주는 네 마음들이 우리에겐 낙원임을! 고마워.<br />
+                짧은 편지지만 그 안에 담긴 상은은
+                <br />
+                &apos;해로운 희망&apos;도 &apos;행복한 슬픔&apos;도 모두 기꺼이
+                끌어안을 준비가 된 사람인 것 같아.
+                <br />
+                배우고 싶어.
+                <br />
+                <br />
+                &apos;성숙&apos; 해진 앨범이라는 표현은 처음 들어보는 것 같아!
+                어떤 이유에서일까 되게 자세히 물어보고 싶은데 그냥 그 문장을
+                보고 좋았던 기분만 간직할게♡
+                <br />
+                극 T 지만 우리에게만은 대문자 F의 표현을 전해주는 네 마음들이
+                우리에겐 낙원임을! 고마워.
+                <br />
                 <br />
               </p>
             </div>
           </div>
 
-          {/* 10th Message */}
+          {/* 10th Message 답장 2 */}
           <div>
             <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
               from. 승현
             </div>
             <div
-                ref={div10Ref}
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div10Ref}
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-                <strong>안녕 최인영~~~~~</strong><br />
                 <br />
-                나는 지금 믹스 모니터를 하다가,<br />
-                혼자 잠깐 멈춰있어.<br />
+                제가 정말 사랑하는 스웨덴세탁소의 리더와 멤버가 나눈 이야기들을
+                읽고 몇 글자 남겨봐요.
                 <br />
-                벌써 2024년 달력을 다 써가.<br />
-                어디서 읽었는데, 익숙한 상황 일 때 우리 뇌가 자체적으로 편집을 해서 시간이 빨리 가게 느껴진다 했던 것 같애. 그래서 나는 내년에도 낯선 거 많이 해보고 싶어! 사실 그래서 낯선 것으로 가득 찬 여행을 좋아하기도 하구..<br />
+                낙원..이라는 표현이 있다는 것조차 잊고, 당장의 걱정에 앞서
+                하루하루를 위태롭게 내디디며 걸어가고 있었어요.
                 <br />
-                올해 너의 목표! 잘 되어가?<br />
-                내가 옆에서 보기엔 잘 하고 있는 것 같아. 그리고 설령 목표를 달성하지 못하더라도 용감한 겁쟁이 정도만 되어도 성장한 거 아닐까? 히히. 내년 니 목표도 기대돼! 내가 왜 기대되는진 모르겠지만 벌써 신나!<br />
                 <br />
-                평소 산책할 때 이런저런 생각을 하느라 음악을 잘 안 듣는데, 코가 차가워지는 이맘때쯤에 나는 시규어로스를 찾게 돼. 무언가 따뜻한 걸 찾고 싶나 봐(우리 음악도 좀 따뜻하지 않나..? 호호..).<br />
-                누군가도 우리를 어떤 이유로라도 그렇게 한 번씩 찾아주면 좋겠다.<br />
+                여러분들의 이야기를 읽으며 나에게 낙원이란 어떤 곳일까 잠깐
+                생각해 봤어요.
                 <br />
-                첫 앨범 회의가 7월쯤이었나?<br />
-                15분 남짓한 그 안에 우리의 낙원을 욱여넣으며 울고 웃고 화나고 황당하고 슬프고 즐거웠고 행복하던 그 시간들도 우리의 낙원이었을 거야.<br />
                 <br />
-                고마웠고 고생 많았어.<br />
+                고통과 괴로움으로부터 벗어난 곳. 감히 상상이나 해봤을까요?
+                그래도 당장 꼽으라면 새벽바람과 스웨덴세탁소가 함께하는 밤
+                산책이 떠올랐어요. 저에게 하루를 닫고 내일을 준비하는 마지막
+                선물이 음악과 산책이거든요.(물론 허리 아파서 겸사겸사 ㅎㅎ) 제가
+                가장 좋아하는 것들을 한데 모아둔 그때의 감정을 낙원에서 느낄 수
+                있기를 바라요.
                 <br />
-                이제! 우리 그 황치즈 디저트 또 먹으러 가자!<br />
+                <br />
+                &apos;사랑한다는 내용은 같아도 사람들이 사랑을 하는 방식은
+                하나도 같지 않아서 백 명의 사람들은 백 가지 방식으로 사랑한다.
+                그러니까 특별하지 않은 사랑은 하나도 없다.&apos;
+                <br />
+                -식물들의 사생활, 이승우-
+                <br />
+                <br />
+                좋아하는 책의 한 구절이에요. 모두에게나 자신만의 사랑이
+                존재하듯이 고통과 괴로움 역시 모두에게 특별한 이유로 존재할 테니
+                낙원이랑 결국 고통과 괴로움을 겪는 이에게만 허락된 걸까? 하는
+                생각도 들어요. 또 여러분들이 그리는, 제가 좇는, 제가 사랑하는
+                것들이 꿈꾸는 낙원은 어떤 곳일까 잠깐 생각하기도 하고요 ㅎㅎ
+                <br />
+                <br />
+                저는 병실에서 처음 스웨덴세탁소의 노래를 들었어요. (오래된
+                필름처럼 흐릿하지만 그때 들은 곡은 분명히 기억이 나요.
+                &apos;시절&apos;이었어요.) 그때는 아마 더 이상 아프지 않은 나를
+                낙원이라 여겼을 거 같아요. 지금은 아프지 않아요. 하지만 또 다른
+                괴로움이 절 가리고 있어요. 지금의 저는 어떤 행복을 좇고 있는
+                걸까요? <br />
+                <br />
+                <br />
+                아! 여기까지 적으며 어느 정도 힌트를 얻게 됐어요. 제가 행복했던
+                때가 떠올랐거든요. 작년 여름과 올해 봄. 여러분들이 돌아왔을
+                때에요. 태어나 난생처음 콘서트를 예매하고 기차에 오르고 파이브
+                가이즈도 가봤어요. 떨리는 손으로 티켓을 건네받고 마지막 곡에
+                맞춰 슬로건을 들고 울먹이며 저희에게 아름답다는 말을 건네는
+                여러분의 모습이 떠올랐어요.
+                <br />
+                <br />
+                그냥 왠지 지쳐있는 지금의 저를 다음 낙원으로 데려가 준다면
+                거기엔 여러분들이 있을 것 같아요. 기타를 치고, 건반을 누르면서
+                다 괜찮다고 잘 버텨냈다고 해줄 것만 같아요.
+                <br />
+              </p>
+            </div>
+            <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
+              from. 스웨덴세탁소
+            </div>
+            <div
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
+                  linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
+                  `,
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
+              <p>
+                저도 승현 님과 같아요. 6월이었고, 잠을 잘 자지 못했고, 더운
+                여름이었지만 몸이 떨렸어요
+                <br />
+                4년 만의 공연이었거든요! 승현 님의 답장을 읽으면서 그때 그
+                시간들이, 객석에 앉아 따뜻하게 바라봐 주던 그 눈빛들이 이토록
+                선명한 오렌지빛으로 제게 남아있음을 다시 깨닫게 되었어요
+                고마워요!
+                <br />
+                <br />
+                <br />
+                이제 아프지 않다니 다행이에요. 그렇지만 지금의 승현 님을 가리고
+                있는 괴로움이 뭘까,
+                <br />
+                뭐든 당장 쫓아내주고 싶어 마음이 쓰이기도 해요.
+                <br />
+                <br />
+                <br />
+                저희가 이번 &apos;오렌지빛을 쥐고&apos;를 만들 때 그랬던 것처럼
+                승현 님도 자기만의 사소한 행복들을, 다양한 모양의 낙원들을 조금
+                더 선명히 손에 쥐게 되길! 또 곧 다시 만나서 우리가 서로의 낙원이
+                되어줄 수 있기를 바라요 고마워요♡
                 <br />
                 <br />
               </p>
             </div>
           </div>
 
-          {/* 11th Message */}
+          {/* 11th Message 답장 3 */}
           <div>
             <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
-              from. 세윤
+              from. 신혜수
             </div>
             <div
-                ref={div11Ref}
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div11Ref}
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-                <strong>안녕 최인영~~~~~</strong><br />
+                <img src="/pics.png" alt="사진" />
                 <br />
-                나는 지금 믹스 모니터를 하다가,<br />
-                혼자 잠깐 멈춰있어.<br />
-                <br />
-                벌써 2024년 달력을 다 써가.<br />
-                어디서 읽었는데, 익숙한 상황 일 때 우리 뇌가 자체적으로 편집을 해서 시간이 빨리 가게 느껴진다 했던 것 같애. 그래서 나는 내년에도 낯선 거 많이 해보고 싶어! 사실 그래서 낯선 것으로 가득 찬 여행을 좋아하기도 하구..<br />
-                <br />
-                올해 너의 목표! 잘 되어가?<br />
-                내가 옆에서 보기엔 잘 하고 있는 것 같아. 그리고 설령 목표를 달성하지 못하더라도 용감한 겁쟁이 정도만 되어도 성장한 거 아닐까? 히히. 내년 니 목표도 기대돼! 내가 왜 기대되는진 모르겠지만 벌써 신나!<br />
-                <br />
-                평소 산책할 때 이런저런 생각을 하느라 음악을 잘 안 듣는데, 코가 차가워지는 이맘때쯤에 나는 시규어로스를 찾게 돼. 무언가 따뜻한 걸 찾고 싶나 봐(우리 음악도 좀 따뜻하지 않나..? 호호..).<br />
-                누군가도 우리를 어떤 이유로라도 그렇게 한 번씩 찾아주면 좋겠다.<br />
-                <br />
-                첫 앨범 회의가 7월쯤이었나?<br />
-                15분 남짓한 그 안에 우리의 낙원을 욱여넣으며 울고 웃고 화나고 황당하고 슬프고 즐거웠고 행복하던 그 시간들도 우리의 낙원이었을 거야.<br />
-                <br />
-                고마웠고 고생 많았어.<br />
-                <br />
-                이제! 우리 그 황치즈 디저트 또 먹으러 가자!<br />
-                <br />
+                안녕하세요. 세윤, 인영 님! 뭔가 교환일기라 함은 짱친들끼리 쓰는
+                거 같으니깐 좀 더 편한 말투로 써보려 해요.<br />
                 <br />
               </p>
             </div>
           </div>
 
-          {/* 12th Message */}
+          {/* 12th Message 답장 4 */}
           <div>
             <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
-              from. 세윤
+              from. 손보람
             </div>
             <div
-                ref={div12Ref}
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div12Ref}
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-                <strong>안녕 최인영~~~~~</strong><br />
-                <br />
-                나는 지금 믹스 모니터를 하다가,<br />
-                혼자 잠깐 멈춰있어.<br />
-                <br />
-                벌써 2024년 달력을 다 써가.<br />
-                어디서 읽었는데, 익숙한 상황 일 때 우리 뇌가 자체적으로 편집을 해서 시간이 빨리 가게 느껴진다 했던 것 같애. 그래서 나는 내년에도 낯선 거 많이 해보고 싶어! 사실 그래서 낯선 것으로 가득 찬 여행을 좋아하기도 하구..<br />
-                <br />
-                올해 너의 목표! 잘 되어가?<br />
-                내가 옆에서 보기엔 잘 하고 있는 것 같아. 그리고 설령 목표를 달성하지 못하더라도 용감한 겁쟁이 정도만 되어도 성장한 거 아닐까? 히히. 내년 니 목표도 기대돼! 내가 왜 기대되는진 모르겠지만 벌써 신나!<br />
-                <br />
-                평소 산책할 때 이런저런 생각을 하느라 음악을 잘 안 듣는데, 코가 차가워지는 이맘때쯤에 나는 시규어로스를 찾게 돼. 무언가 따뜻한 걸 찾고 싶나 봐(우리 음악도 좀 따뜻하지 않나..? 호호..).<br />
-                누군가도 우리를 어떤 이유로라도 그렇게 한 번씩 찾아주면 좋겠다.<br />
-                <br />
-                첫 앨범 회의가 7월쯤이었나?<br />
-                15분 남짓한 그 안에 우리의 낙원을 욱여넣으며 울고 웃고 화나고 황당하고 슬프고 즐거웠고 행복하던 그 시간들도 우리의 낙원이었을 거야.<br />
-                <br />
-                고마웠고 고생 많았어.<br />
-                <br />
-                이제! 우리 그 황치즈 디저트 또 먹으러 가자!<br />
-                <br />
-                <br />
+
               </p>
             </div>
           </div>
 
-          {/* 13th Message */}
+          {/* 13th Message 답장 5 */}
           <div>
             <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
-              from. 세윤
+              from. 권휘
             </div>
             <div
-                ref={div13Ref}
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div13Ref}
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-                <strong>안녕 최인영~~~~~</strong><br />
-                <br />
-                나는 지금 믹스 모니터를 하다가,<br />
-                혼자 잠깐 멈춰있어.<br />
-                <br />
-                벌써 2024년 달력을 다 써가.<br />
-                어디서 읽었는데, 익숙한 상황 일 때 우리 뇌가 자체적으로 편집을 해서 시간이 빨리 가게 느껴진다 했던 것 같애. 그래서 나는 내년에도 낯선 거 많이 해보고 싶어! 사실 그래서 낯선 것으로 가득 찬 여행을 좋아하기도 하구..<br />
-                <br />
-                올해 너의 목표! 잘 되어가?<br />
-                내가 옆에서 보기엔 잘 하고 있는 것 같아. 그리고 설령 목표를 달성하지 못하더라도 용감한 겁쟁이 정도만 되어도 성장한 거 아닐까? 히히. 내년 니 목표도 기대돼! 내가 왜 기대되는진 모르겠지만 벌써 신나!<br />
-                <br />
-                평소 산책할 때 이런저런 생각을 하느라 음악을 잘 안 듣는데, 코가 차가워지는 이맘때쯤에 나는 시규어로스를 찾게 돼. 무언가 따뜻한 걸 찾고 싶나 봐(우리 음악도 좀 따뜻하지 않나..? 호호..).<br />
-                누군가도 우리를 어떤 이유로라도 그렇게 한 번씩 찾아주면 좋겠다.<br />
-                <br />
-                첫 앨범 회의가 7월쯤이었나?<br />
-                15분 남짓한 그 안에 우리의 낙원을 욱여넣으며 울고 웃고 화나고 황당하고 슬프고 즐거웠고 행복하던 그 시간들도 우리의 낙원이었을 거야.<br />
-                <br />
-                고마웠고 고생 많았어.<br />
-                <br />
-                이제! 우리 그 황치즈 디저트 또 먹으러 가자!<br />
-                <br />
-                <br />
+
               </p>
             </div>
           </div>
 
-          {/* 14th Message */}
+          {/* 14th Message 답장 6 */}
           <div>
             <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
-              from. 세윤
+              from. 이종혁
             </div>
             <div
-                ref={div14Ref}
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div14Ref}
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-                <strong>안녕 최인영~~~~~</strong><br />
-                <br />
-                나는 지금 믹스 모니터를 하다가,<br />
-                혼자 잠깐 멈춰있어.<br />
-                <br />
-                벌써 2024년 달력을 다 써가.<br />
-                어디서 읽었는데, 익숙한 상황 일 때 우리 뇌가 자체적으로 편집을 해서 시간이 빨리 가게 느껴진다 했던 것 같애. 그래서 나는 내년에도 낯선 거 많이 해보고 싶어! 사실 그래서 낯선 것으로 가득 찬 여행을 좋아하기도 하구..<br />
-                <br />
-                올해 너의 목표! 잘 되어가?<br />
-                내가 옆에서 보기엔 잘 하고 있는 것 같아. 그리고 설령 목표를 달성하지 못하더라도 용감한 겁쟁이 정도만 되어도 성장한 거 아닐까? 히히. 내년 니 목표도 기대돼! 내가 왜 기대되는진 모르겠지만 벌써 신나!<br />
-                <br />
-                평소 산책할 때 이런저런 생각을 하느라 음악을 잘 안 듣는데, 코가 차가워지는 이맘때쯤에 나는 시규어로스를 찾게 돼. 무언가 따뜻한 걸 찾고 싶나 봐(우리 음악도 좀 따뜻하지 않나..? 호호..).<br />
-                누군가도 우리를 어떤 이유로라도 그렇게 한 번씩 찾아주면 좋겠다.<br />
-                <br />
-                첫 앨범 회의가 7월쯤이었나?<br />
-                15분 남짓한 그 안에 우리의 낙원을 욱여넣으며 울고 웃고 화나고 황당하고 슬프고 즐거웠고 행복하던 그 시간들도 우리의 낙원이었을 거야.<br />
-                <br />
-                고마웠고 고생 많았어.<br />
-                <br />
-                이제! 우리 그 황치즈 디저트 또 먹으러 가자!<br />
-                <br />
-                <br />
+
               </p>
             </div>
           </div>
 
-          {/* 15th Message */}
+          {/* 15th Message 답장 7 */}
           <div>
             <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
-              from. 세윤
+              from. 정주영
             </div>
             <div
-                ref={div15Ref}
-                className="select-none bg-white p-10 w-auto"
-                style={{
-                  backgroundImage: `
+              ref={div15Ref}
+              className="select-none bg-white p-10 w-auto"
+              style={{
+                backgroundImage: `
                   linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
                   linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
                   `,
-                  backgroundSize: "30px 30px", // 격자 크기 조절
-                }}>
+                backgroundSize: "30px 30px", // 격자 크기 조절
+              }}>
               <p>
-                <strong>안녕 최인영~~~~~</strong><br />
-                <br />
-                나는 지금 믹스 모니터를 하다가,<br />
-                혼자 잠깐 멈춰있어.<br />
-                <br />
-                벌써 2024년 달력을 다 써가.<br />
-                어디서 읽었는데, 익숙한 상황 일 때 우리 뇌가 자체적으로 편집을 해서 시간이 빨리 가게 느껴진다 했던 것 같애. 그래서 나는 내년에도 낯선 거 많이 해보고 싶어! 사실 그래서 낯선 것으로 가득 찬 여행을 좋아하기도 하구..<br />
-                <br />
-                올해 너의 목표! 잘 되어가?<br />
-                내가 옆에서 보기엔 잘 하고 있는 것 같아. 그리고 설령 목표를 달성하지 못하더라도 용감한 겁쟁이 정도만 되어도 성장한 거 아닐까? 히히. 내년 니 목표도 기대돼! 내가 왜 기대되는진 모르겠지만 벌써 신나!<br />
-                <br />
-                평소 산책할 때 이런저런 생각을 하느라 음악을 잘 안 듣는데, 코가 차가워지는 이맘때쯤에 나는 시규어로스를 찾게 돼. 무언가 따뜻한 걸 찾고 싶나 봐(우리 음악도 좀 따뜻하지 않나..? 호호..).<br />
-                누군가도 우리를 어떤 이유로라도 그렇게 한 번씩 찾아주면 좋겠다.<br />
-                <br />
-                첫 앨범 회의가 7월쯤이었나?<br />
-                15분 남짓한 그 안에 우리의 낙원을 욱여넣으며 울고 웃고 화나고 황당하고 슬프고 즐거웠고 행복하던 그 시간들도 우리의 낙원이었을 거야.<br />
-                <br />
-                고마웠고 고생 많았어.<br />
-                <br />
-                이제! 우리 그 황치즈 디저트 또 먹으러 가자!<br />
-                <br />
-                <br />
+
               </p>
             </div>
           </div>
@@ -925,7 +1088,7 @@ export default function Main() {
       </div>
 
       {/* Back to Top Button */}
-       {showTopButton && (
+      {showTopButton && (
         <button
           onClick={scrollToTop}
           className="fixed bottom-10 right-5 bg-orange-300 px-4 py-2 rounded-full shadow-lg font-mono ">
