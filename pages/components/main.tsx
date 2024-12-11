@@ -1090,13 +1090,13 @@ export default function Main() {
       </div>
 
       {/* Back to Top Button */}
-      {showTopButton && (
-        <button
-          onClick={scrollToTop}
-          className="fixed bottom-10 right-5 bg-orange-300 px-4 py-2 rounded-full shadow-lg font-mono ">
-          ↑ 위로
-        </button>
-      )}
+      {/*{showTopButton && (*/}
+      {/*  <button*/}
+      {/*    onClick={scrollToTop}*/}
+      {/*    className="fixed bottom-10 right-5 bg-orange-300 px-4 py-2 rounded-full shadow-lg font-mono ">*/}
+      {/*    ↑ 위로*/}
+      {/*  </button>*/}
+      {/*)}*/}
     </div>
   );
 }
