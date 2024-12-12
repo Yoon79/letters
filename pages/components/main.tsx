@@ -1121,7 +1121,42 @@ export default function Main() {
                 backgroundSize: "30px 30px", // 격자 크기 조절
               }}>
               <p>
-
+                <strong>스웨덴세탁소에게</strong><br />
+                <br />
+                어쩜 스세가 생각하는 낙원이 나와 비슷한 생각인지 신기해.<br />
+                <br />
+                예전에는 마냥 야자수 나무가 있는 너무 덥지 않은 열대 기후의 하얀 백사장이 있는 해변가에 있는 해먹에 누워 칵테일을 마시며 음악을 듣는 것이 천국이 아닐까 생각해왔었는데..<br />
+                <br />
+                세상의 풍파를 많이 겪어오며 살아오다 보니 <strong>&apos;영원한 낙원&apos;이라는 공간은 세상에 존재하지 않다는 것을 깨닫게 되고, 다만 어쩌다 행운처럼 찾아오는 행복한 순간의 그 &apos;상태&apos;가 낙원인 것 같아.</strong><br />
+                <br />
+                &apos;매일이 행복할 수는 없지만 행복한 일은 매일 있다&apos;라는 말을 매일 되새기고 사는 요즘. <strong>그 행복한 일로 웃을 수 있는 &apos;순간&apos;이 &apos;Magical&apos;하게 생기는 순간의 &apos;상태&apos;. 그것이 낙원인 것 같아.</strong><br />
+                <br />
+                예를 들면 세상 걱정을 잠시 내려놓고 스세의 노래를 들으며 커피 한 잔을 마시는 시간!^^<br />
+                <br />
+              </p>
+            </div>
+            <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
+              from. 스웨덴세탁소
+            </div>
+            <div
+                className="select-none bg-white p-10 w-auto"
+                style={{
+                  backgroundImage: `
+                  linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
+                  `,
+                  backgroundSize: "30px 30px", // 격자 크기 조절
+                }}>
+              <p>
+                <strong>JH에게</strong><br /><br />
+                네가 만들어준 우리의 낙원들이 여전히 선명해.<br />
+                아마 영원히 반짝거릴 거야.<br />
+                <br />
+                너는 누군가에게 영원한 낙원을 선물해 주는 사람이니까, 그토록 아름다운 사람이니까 잦은 행운들로 자주 행복할 거야!<br />
+                <br />
+                우리에게 준 그 오렌지빛 선명한 낙원들을 손에 꼭 쥐고 지칠때마다 꺼내어볼게!<br />
+                고마워♡<br />
+                <br />
               </p>
             </div>
           </div>
@@ -1142,7 +1177,49 @@ export default function Main() {
                 backgroundSize: "30px 30px", // 격자 크기 조절
               }}>
               <p>
-
+                <strong>스웨덴세탁소에게</strong><br />
+                <br />
+                시련과 좌절에 빠질 때쯤 우연히 들려온 스세님들의 Happy Birthday Waltz.<br />
+                <br />
+                다시 태어난 기분을 느껴본 적은 정말 그때가 처음이었어요.<br />
+                &apos;아름다워 넌 정말 눈이 부신걸. 너의 세상에 날 담아줄래?&apos;<br />
+                가사 한마디 한마디가 마음을 달래주는 그런 기분.<br />
+                아 그 순간을 평생 잊지 못해요.<br />
+                <br />
+                <strong>저의 낙원은.. 정말 힘든 일들이 닥치고 괴롭히고 휘청거리는 순간에도 마음만은 평온할 때인 것 같아요. 의지할 곳이 생겨서 마음만은 온전히 평온한 순간.</strong><br />
+                <br />
+                많은 분들이 보내셨을 진부한 이야기 일 수도 있지만 저의 낙원은 &apos;스웨덴세탁소님들의 음악&apos;입니다.<br />
+                <br />
+                30대 후반을 달려가는 지금도 여전히 덕분에 잘 이겨내고 잘 버텨내고 있어요. 낙원악기상가처럼 오래도록 좋은 곡들 들려주시면 감사하겠습니다.<br />
+                <br />
+                🍊낙원이자 생명의 은인분들 많이 사랑합니다 :)🍊<br />
+                <br />
+              </p>
+            </div>
+            <div className="px-10 w-full h-10 bg-[#617a39] items-center justify-start flex font-semibold text-white">
+              from. 스웨덴세탁소
+            </div>
+            <div
+                className="select-none bg-white p-10 w-auto"
+                style={{
+                  backgroundImage: `
+                  linear-gradient(to right, rgba(97,122,57, 0.2) 0.1px, transparent 1px),
+                  linear-gradient(to bottom, rgba(97,122,57, 0.2) 0.1px, transparent 1px)
+                  `,
+                  backgroundSize: "30px 30px", // 격자 크기 조절
+                }}>
+              <p>
+                <strong>JY에게</strong><br /><br />
+                &apos;아름다워 넌 정말 눈이 부신걸 너의 세상에 날 담아줄래?&apos;<br />
+                <br />
+                휘청거릴지라도 평온을 되찾을 방법을 찾으셨을까요? 꼭 찾으셨기를 그리고 조금의 욕심을 보태서 그 과정 속에 스웨덴세탁소도 있기를 바라보아요 히힛..!<br />
+                <br />
+                어렵게 꺼내어주신 속마음도 매번 보내주시는 하트모양 이모티콘과 그 안에 담아주신 응원과 사랑 모두 고마워요♡<br />
+                <br />
+                덕분에 저희도 잘 버티고 이겨내며 올 수 있었어요!<br />
+                언제나 필요하실 때 존재할게요!<br />
+                그 힘을 주셔서 고맙습니다.<br />
+                <br />
               </p>
             </div>
           </div>
