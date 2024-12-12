@@ -48,15 +48,15 @@ const AboutUs: NextPage = () => {
               height={20}
             />
           </div>
-          <Link>
-            <a
-              href="https://www.instagram.com/swedenlaundry_s2/"
-              target="__blank">
-              <div className="text-gray-800 font-semibold font-mono text-l cursor-pointer hover:text-[#e98143]">
-                @swedenlaundry_s2
-              </div>
-            </a>
-          </Link>
+          {/*<Link>*/}
+          {/*  <a*/}
+          {/*    href="https://www.instagram.com/swedenlaundry_s2/"*/}
+          {/*    target="__blank">*/}
+          {/*    <div className="text-gray-800 font-semibold font-mono text-l cursor-pointer hover:text-[#e98143]">*/}
+          {/*      @swedenlaundry_s2*/}
+          {/*    </div>*/}
+          {/*  </a>*/}
+          {/*</Link>*/}
         </div>
       </div>
       <Footer />
